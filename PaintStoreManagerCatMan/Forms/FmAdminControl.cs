@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace PaintStoreManagerCatMan
+namespace PaintStoreManagerCatMan.Forms
 {
-    public partial class Form1 : Form
+    public partial class FmAdminControl : Form
     {
-        public Form1()
+        public FmAdminControl()
         {
             InitializeComponent();
         }
