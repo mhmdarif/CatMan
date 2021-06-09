@@ -53,6 +53,7 @@ namespace PaintStoreManagerCatMan.Forms
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges2 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -61,16 +62,29 @@ namespace PaintStoreManagerCatMan.Forms
             this.Tb_CustomerCash = new Bunifu.UI.WinForms.BunifuTextBox();
             this.TB_CustomerName = new Bunifu.UI.WinForms.BunifuTextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.Btn_Clear = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.Btn_DeleteCart = new Bunifu.Framework.UI.BunifuThinButton2();
             this.TB_SearchByColor = new Bunifu.UI.WinForms.BunifuTextBox();
             this.TB_SearchByBrand = new Bunifu.UI.WinForms.BunifuTextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.bunifuPanel1 = new Bunifu.UI.WinForms.BunifuPanel();
             this.DGV_PaintCart = new Bunifu.UI.WinForms.BunifuDataGridView();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.CB_CateCart = new System.Windows.Forms.ComboBox();
             this.Btn_AddCart = new Bunifu.Framework.UI.BunifuThinButton2();
             this.bunifuLabel1 = new Bunifu.UI.WinForms.BunifuLabel();
             this.DGV_Cart = new Bunifu.UI.WinForms.BunifuDataGridView();
+            this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column13 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.paintStoreDBDataSet1 = new PaintStoreManagerCatMan.PaintStoreDBDataSet1();
             this.tblPaintsBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.tblPaintsTableAdapter = new PaintStoreManagerCatMan.PaintStoreDBDataSet1TableAdapters.TblPaintsTableAdapter();
@@ -81,19 +95,7 @@ namespace PaintStoreManagerCatMan.Forms
             this.tblCategoriesDataSet = new PaintStoreManagerCatMan.TblCategoriesDataSet();
             this.tblCategoriesBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.tblCategoriesTableAdapter1 = new PaintStoreManagerCatMan.TblCategoriesDataSetTableAdapters.TblCategoriesTableAdapter();
-            this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column13 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.BtnClear = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.bunifuPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DGV_PaintCart)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.DGV_Cart)).BeginInit();
@@ -110,7 +112,7 @@ namespace PaintStoreManagerCatMan.Forms
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(678, 483);
+            this.label7.Location = new System.Drawing.Point(687, 454);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(15, 17);
             this.label7.TabIndex = 36;
@@ -121,7 +123,7 @@ namespace PaintStoreManagerCatMan.Forms
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(612, 483);
+            this.label6.Location = new System.Drawing.Point(612, 454);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(69, 17);
             this.label6.TabIndex = 35;
@@ -131,7 +133,7 @@ namespace PaintStoreManagerCatMan.Forms
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(612, 442);
+            this.label5.Location = new System.Drawing.Point(612, 420);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(49, 17);
             this.label5.TabIndex = 34;
@@ -141,7 +143,7 @@ namespace PaintStoreManagerCatMan.Forms
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(612, 407);
+            this.label3.Location = new System.Drawing.Point(612, 385);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(56, 17);
             this.label3.TabIndex = 32;
@@ -165,7 +167,7 @@ namespace PaintStoreManagerCatMan.Forms
             this.Btn_Pay.IdleFillColor = System.Drawing.Color.DarkOrange;
             this.Btn_Pay.IdleForecolor = System.Drawing.Color.White;
             this.Btn_Pay.IdleLineColor = System.Drawing.Color.DarkOrange;
-            this.Btn_Pay.Location = new System.Drawing.Point(885, 492);
+            this.Btn_Pay.Location = new System.Drawing.Point(771, 484);
             this.Btn_Pay.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Btn_Pay.Name = "Btn_Pay";
             this.Btn_Pay.Size = new System.Drawing.Size(154, 46);
@@ -200,7 +202,7 @@ namespace PaintStoreManagerCatMan.Forms
             this.Tb_CustomerCash.IconRight = null;
             this.Tb_CustomerCash.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.Tb_CustomerCash.Lines = new string[0];
-            this.Tb_CustomerCash.Location = new System.Drawing.Point(681, 430);
+            this.Tb_CustomerCash.Location = new System.Drawing.Point(681, 408);
             this.Tb_CustomerCash.MaxLength = 32767;
             this.Tb_CustomerCash.MinimumSize = new System.Drawing.Size(1, 1);
             this.Tb_CustomerCash.Modified = false;
@@ -274,7 +276,7 @@ namespace PaintStoreManagerCatMan.Forms
             this.TB_CustomerName.IconRight = null;
             this.TB_CustomerName.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.TB_CustomerName.Lines = new string[0];
-            this.TB_CustomerName.Location = new System.Drawing.Point(681, 395);
+            this.TB_CustomerName.Location = new System.Drawing.Point(681, 373);
             this.TB_CustomerName.MaxLength = 32767;
             this.TB_CustomerName.MinimumSize = new System.Drawing.Size(1, 1);
             this.TB_CustomerName.Modified = false;
@@ -325,38 +327,38 @@ namespace PaintStoreManagerCatMan.Forms
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(667, 364);
+            this.label2.Location = new System.Drawing.Point(923, 324);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(15, 17);
             this.label2.TabIndex = 27;
             this.label2.Text = "0";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // Btn_Clear
+            // Btn_DeleteCart
             // 
-            this.Btn_Clear.ActiveBorderThickness = 1;
-            this.Btn_Clear.ActiveCornerRadius = 20;
-            this.Btn_Clear.ActiveFillColor = System.Drawing.Color.Red;
-            this.Btn_Clear.ActiveForecolor = System.Drawing.Color.White;
-            this.Btn_Clear.ActiveLineColor = System.Drawing.Color.Red;
-            this.Btn_Clear.BackColor = System.Drawing.SystemColors.Control;
-            this.Btn_Clear.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Btn_Clear.BackgroundImage")));
-            this.Btn_Clear.ButtonText = "Delete from Cart";
-            this.Btn_Clear.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Btn_Clear.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn_Clear.ForeColor = System.Drawing.Color.DarkOrange;
-            this.Btn_Clear.IdleBorderThickness = 1;
-            this.Btn_Clear.IdleCornerRadius = 20;
-            this.Btn_Clear.IdleFillColor = System.Drawing.Color.DarkOrange;
-            this.Btn_Clear.IdleForecolor = System.Drawing.Color.White;
-            this.Btn_Clear.IdleLineColor = System.Drawing.Color.DarkOrange;
-            this.Btn_Clear.Location = new System.Drawing.Point(885, 312);
-            this.Btn_Clear.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.Btn_Clear.Name = "Btn_Clear";
-            this.Btn_Clear.Size = new System.Drawing.Size(171, 39);
-            this.Btn_Clear.TabIndex = 25;
-            this.Btn_Clear.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.Btn_Clear.Click += new System.EventHandler(this.Btn_Clear_Click);
+            this.Btn_DeleteCart.ActiveBorderThickness = 1;
+            this.Btn_DeleteCart.ActiveCornerRadius = 20;
+            this.Btn_DeleteCart.ActiveFillColor = System.Drawing.Color.Red;
+            this.Btn_DeleteCart.ActiveForecolor = System.Drawing.Color.White;
+            this.Btn_DeleteCart.ActiveLineColor = System.Drawing.Color.Red;
+            this.Btn_DeleteCart.BackColor = System.Drawing.SystemColors.Control;
+            this.Btn_DeleteCart.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Btn_DeleteCart.BackgroundImage")));
+            this.Btn_DeleteCart.ButtonText = "Delete from Cart";
+            this.Btn_DeleteCart.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Btn_DeleteCart.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_DeleteCart.ForeColor = System.Drawing.Color.DarkOrange;
+            this.Btn_DeleteCart.IdleBorderThickness = 1;
+            this.Btn_DeleteCart.IdleCornerRadius = 20;
+            this.Btn_DeleteCart.IdleFillColor = System.Drawing.Color.DarkOrange;
+            this.Btn_DeleteCart.IdleForecolor = System.Drawing.Color.White;
+            this.Btn_DeleteCart.IdleLineColor = System.Drawing.Color.DarkOrange;
+            this.Btn_DeleteCart.Location = new System.Drawing.Point(728, 312);
+            this.Btn_DeleteCart.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Btn_DeleteCart.Name = "Btn_DeleteCart";
+            this.Btn_DeleteCart.Size = new System.Drawing.Size(106, 39);
+            this.Btn_DeleteCart.TabIndex = 25;
+            this.Btn_DeleteCart.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Btn_DeleteCart.Click += new System.EventHandler(this.Btn_DeleteCart_Click);
             // 
             // TB_SearchByColor
             // 
@@ -511,7 +513,7 @@ namespace PaintStoreManagerCatMan.Forms
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(612, 364);
+            this.label1.Location = new System.Drawing.Point(868, 324);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(47, 17);
             this.label1.TabIndex = 26;
@@ -604,6 +606,55 @@ namespace PaintStoreManagerCatMan.Forms
             this.DGV_PaintCart.TabIndex = 34;
             this.DGV_PaintCart.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Light;
             // 
+            // Column1
+            // 
+            this.Column1.DataPropertyName = "Id";
+            this.Column1.FillWeight = 71.06599F;
+            this.Column1.HeaderText = "Id";
+            this.Column1.Name = "Column1";
+            // 
+            // Column2
+            // 
+            this.Column2.DataPropertyName = "Brand";
+            this.Column2.FillWeight = 104.8223F;
+            this.Column2.HeaderText = "Brand";
+            this.Column2.Name = "Column2";
+            // 
+            // Column3
+            // 
+            this.Column3.DataPropertyName = "Color";
+            this.Column3.FillWeight = 104.8223F;
+            this.Column3.HeaderText = "Color";
+            this.Column3.Name = "Column3";
+            // 
+            // Column4
+            // 
+            this.Column4.DataPropertyName = "Category";
+            this.Column4.FillWeight = 104.8223F;
+            this.Column4.HeaderText = "Category";
+            this.Column4.Name = "Column4";
+            // 
+            // Column5
+            // 
+            this.Column5.DataPropertyName = "Size";
+            this.Column5.FillWeight = 104.8223F;
+            this.Column5.HeaderText = "Size";
+            this.Column5.Name = "Column5";
+            // 
+            // Column6
+            // 
+            this.Column6.DataPropertyName = "Quantity";
+            this.Column6.FillWeight = 104.8223F;
+            this.Column6.HeaderText = "Quantity";
+            this.Column6.Name = "Column6";
+            // 
+            // Column7
+            // 
+            this.Column7.DataPropertyName = "BuyPrice";
+            this.Column7.FillWeight = 104.8223F;
+            this.Column7.HeaderText = "Price";
+            this.Column7.Name = "Column7";
+            // 
             // CB_CateCart
             // 
             this.CB_CateCart.FormattingEnabled = true;
@@ -636,7 +687,7 @@ namespace PaintStoreManagerCatMan.Forms
             this.Btn_AddCart.Location = new System.Drawing.Point(599, 312);
             this.Btn_AddCart.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Btn_AddCart.Name = "Btn_AddCart";
-            this.Btn_AddCart.Size = new System.Drawing.Size(188, 39);
+            this.Btn_AddCart.Size = new System.Drawing.Size(123, 39);
             this.Btn_AddCart.TabIndex = 32;
             this.Btn_AddCart.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.Btn_AddCart.Click += new System.EventHandler(this.Btn_AddCart_Click);
@@ -724,6 +775,48 @@ namespace PaintStoreManagerCatMan.Forms
             this.DGV_Cart.TabIndex = 22;
             this.DGV_Cart.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Light;
             // 
+            // Column8
+            // 
+            this.Column8.DataPropertyName = "Id";
+            this.Column8.FillWeight = 60.9137F;
+            this.Column8.HeaderText = "Id";
+            this.Column8.Name = "Column8";
+            // 
+            // Column9
+            // 
+            this.Column9.DataPropertyName = "Brand";
+            this.Column9.FillWeight = 107.8173F;
+            this.Column9.HeaderText = "Brand";
+            this.Column9.Name = "Column9";
+            // 
+            // Column10
+            // 
+            this.Column10.DataPropertyName = "Color";
+            this.Column10.FillWeight = 107.8173F;
+            this.Column10.HeaderText = "Color";
+            this.Column10.Name = "Column10";
+            // 
+            // Column11
+            // 
+            this.Column11.DataPropertyName = "Category";
+            this.Column11.FillWeight = 107.8173F;
+            this.Column11.HeaderText = "Category";
+            this.Column11.Name = "Column11";
+            // 
+            // Column12
+            // 
+            this.Column12.DataPropertyName = "Size";
+            this.Column12.FillWeight = 107.8173F;
+            this.Column12.HeaderText = "Size";
+            this.Column12.Name = "Column12";
+            // 
+            // Column13
+            // 
+            this.Column13.DataPropertyName = "BuyPrice";
+            this.Column13.FillWeight = 107.8173F;
+            this.Column13.HeaderText = "Price";
+            this.Column13.Name = "Column13";
+            // 
             // paintStoreDBDataSet1
             // 
             this.paintStoreDBDataSet1.DataSetName = "PaintStoreDBDataSet1";
@@ -771,102 +864,102 @@ namespace PaintStoreManagerCatMan.Forms
             // 
             this.tblCategoriesTableAdapter1.ClearBeforeFill = true;
             // 
-            // Column8
+            // BtnClear
             // 
-            this.Column8.DataPropertyName = "Id";
-            this.Column8.FillWeight = 60.9137F;
-            this.Column8.HeaderText = "Id";
-            this.Column8.Name = "Column8";
-            // 
-            // Column9
-            // 
-            this.Column9.DataPropertyName = "Brand";
-            this.Column9.FillWeight = 107.8173F;
-            this.Column9.HeaderText = "Brand";
-            this.Column9.Name = "Column9";
-            // 
-            // Column10
-            // 
-            this.Column10.DataPropertyName = "Color";
-            this.Column10.FillWeight = 107.8173F;
-            this.Column10.HeaderText = "Color";
-            this.Column10.Name = "Column10";
-            // 
-            // Column11
-            // 
-            this.Column11.DataPropertyName = "Category";
-            this.Column11.FillWeight = 107.8173F;
-            this.Column11.HeaderText = "Category";
-            this.Column11.Name = "Column11";
-            // 
-            // Column12
-            // 
-            this.Column12.DataPropertyName = "Size";
-            this.Column12.FillWeight = 107.8173F;
-            this.Column12.HeaderText = "Size";
-            this.Column12.Name = "Column12";
-            // 
-            // Column13
-            // 
-            this.Column13.DataPropertyName = "BuyPrice";
-            this.Column13.FillWeight = 107.8173F;
-            this.Column13.HeaderText = "Price";
-            this.Column13.Name = "Column13";
-            // 
-            // Column1
-            // 
-            this.Column1.DataPropertyName = "Id";
-            this.Column1.FillWeight = 71.06599F;
-            this.Column1.HeaderText = "Id";
-            this.Column1.Name = "Column1";
-            // 
-            // Column2
-            // 
-            this.Column2.DataPropertyName = "Brand";
-            this.Column2.FillWeight = 104.8223F;
-            this.Column2.HeaderText = "Brand";
-            this.Column2.Name = "Column2";
-            // 
-            // Column3
-            // 
-            this.Column3.DataPropertyName = "Color";
-            this.Column3.FillWeight = 104.8223F;
-            this.Column3.HeaderText = "Color";
-            this.Column3.Name = "Column3";
-            // 
-            // Column4
-            // 
-            this.Column4.DataPropertyName = "Category";
-            this.Column4.FillWeight = 104.8223F;
-            this.Column4.HeaderText = "Category";
-            this.Column4.Name = "Column4";
-            // 
-            // Column5
-            // 
-            this.Column5.DataPropertyName = "Size";
-            this.Column5.FillWeight = 104.8223F;
-            this.Column5.HeaderText = "Size";
-            this.Column5.Name = "Column5";
-            // 
-            // Column6
-            // 
-            this.Column6.DataPropertyName = "Quantity";
-            this.Column6.FillWeight = 104.8223F;
-            this.Column6.HeaderText = "Quantity";
-            this.Column6.Name = "Column6";
-            // 
-            // Column7
-            // 
-            this.Column7.DataPropertyName = "BuyPrice";
-            this.Column7.FillWeight = 104.8223F;
-            this.Column7.HeaderText = "Price";
-            this.Column7.Name = "Column7";
+            this.BtnClear.AllowAnimations = true;
+            this.BtnClear.AllowMouseEffects = true;
+            this.BtnClear.AllowToggling = false;
+            this.BtnClear.AnimationSpeed = 200;
+            this.BtnClear.AutoGenerateColors = false;
+            this.BtnClear.AutoRoundBorders = false;
+            this.BtnClear.AutoSizeLeftIcon = true;
+            this.BtnClear.AutoSizeRightIcon = true;
+            this.BtnClear.BackColor = System.Drawing.Color.Transparent;
+            this.BtnClear.BackColor1 = System.Drawing.Color.Red;
+            this.BtnClear.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnClear.BackgroundImage")));
+            this.BtnClear.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.BtnClear.ButtonText = "Clear";
+            this.BtnClear.ButtonTextMarginLeft = 0;
+            this.BtnClear.ColorContrastOnClick = 45;
+            this.BtnClear.ColorContrastOnHover = 45;
+            this.BtnClear.Cursor = System.Windows.Forms.Cursors.Default;
+            borderEdges2.BottomLeft = true;
+            borderEdges2.BottomRight = true;
+            borderEdges2.TopLeft = true;
+            borderEdges2.TopRight = true;
+            this.BtnClear.CustomizableEdges = borderEdges2;
+            this.BtnClear.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.BtnClear.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
+            this.BtnClear.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.BtnClear.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
+            this.BtnClear.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
+            this.BtnClear.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.BtnClear.ForeColor = System.Drawing.Color.White;
+            this.BtnClear.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnClear.IconLeftCursor = System.Windows.Forms.Cursors.Default;
+            this.BtnClear.IconLeftPadding = new System.Windows.Forms.Padding(11, 3, 3, 3);
+            this.BtnClear.IconMarginLeft = 11;
+            this.BtnClear.IconPadding = 10;
+            this.BtnClear.IconRightAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnClear.IconRightCursor = System.Windows.Forms.Cursors.Default;
+            this.BtnClear.IconRightPadding = new System.Windows.Forms.Padding(3, 3, 7, 3);
+            this.BtnClear.IconSize = 25;
+            this.BtnClear.IdleBorderColor = System.Drawing.Color.Red;
+            this.BtnClear.IdleBorderRadius = 1;
+            this.BtnClear.IdleBorderThickness = 1;
+            this.BtnClear.IdleFillColor = System.Drawing.Color.Red;
+            this.BtnClear.IdleIconLeftImage = null;
+            this.BtnClear.IdleIconRightImage = null;
+            this.BtnClear.IndicateFocus = false;
+            this.BtnClear.Location = new System.Drawing.Point(964, 443);
+            this.BtnClear.Name = "BtnClear";
+            this.BtnClear.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
+            this.BtnClear.OnDisabledState.BorderRadius = 1;
+            this.BtnClear.OnDisabledState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.BtnClear.OnDisabledState.BorderThickness = 1;
+            this.BtnClear.OnDisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.BtnClear.OnDisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
+            this.BtnClear.OnDisabledState.IconLeftImage = null;
+            this.BtnClear.OnDisabledState.IconRightImage = null;
+            this.BtnClear.onHoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.BtnClear.onHoverState.BorderRadius = 1;
+            this.BtnClear.onHoverState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.BtnClear.onHoverState.BorderThickness = 1;
+            this.BtnClear.onHoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.BtnClear.onHoverState.ForeColor = System.Drawing.Color.White;
+            this.BtnClear.onHoverState.IconLeftImage = null;
+            this.BtnClear.onHoverState.IconRightImage = null;
+            this.BtnClear.OnIdleState.BorderColor = System.Drawing.Color.Red;
+            this.BtnClear.OnIdleState.BorderRadius = 1;
+            this.BtnClear.OnIdleState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.BtnClear.OnIdleState.BorderThickness = 1;
+            this.BtnClear.OnIdleState.FillColor = System.Drawing.Color.Red;
+            this.BtnClear.OnIdleState.ForeColor = System.Drawing.Color.White;
+            this.BtnClear.OnIdleState.IconLeftImage = null;
+            this.BtnClear.OnIdleState.IconRightImage = null;
+            this.BtnClear.OnPressedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            this.BtnClear.OnPressedState.BorderRadius = 1;
+            this.BtnClear.OnPressedState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.BtnClear.OnPressedState.BorderThickness = 1;
+            this.BtnClear.OnPressedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            this.BtnClear.OnPressedState.ForeColor = System.Drawing.Color.White;
+            this.BtnClear.OnPressedState.IconLeftImage = null;
+            this.BtnClear.OnPressedState.IconRightImage = null;
+            this.BtnClear.Size = new System.Drawing.Size(72, 21);
+            this.BtnClear.TabIndex = 37;
+            this.BtnClear.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.BtnClear.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
+            this.BtnClear.TextMarginLeft = 0;
+            this.BtnClear.TextPadding = new System.Windows.Forms.Padding(0);
+            this.BtnClear.UseDefaultRadiusAndThickness = true;
+            this.BtnClear.Click += new System.EventHandler(this.BtnClear_Click);
             // 
             // FmCart
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1068, 542);
+            this.Controls.Add(this.BtnClear);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.Btn_AddCart);
             this.Controls.Add(this.label6);
@@ -876,7 +969,7 @@ namespace PaintStoreManagerCatMan.Forms
             this.Controls.Add(this.Tb_CustomerCash);
             this.Controls.Add(this.TB_CustomerName);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.Btn_Clear);
+            this.Controls.Add(this.Btn_DeleteCart);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.bunifuPanel1);
             this.Controls.Add(this.bunifuLabel1);
@@ -909,7 +1002,7 @@ namespace PaintStoreManagerCatMan.Forms
         private Bunifu.UI.WinForms.BunifuTextBox Tb_CustomerCash;
         private Bunifu.UI.WinForms.BunifuTextBox TB_CustomerName;
         private System.Windows.Forms.Label label2;
-        private Bunifu.Framework.UI.BunifuThinButton2 Btn_Clear;
+        private Bunifu.Framework.UI.BunifuThinButton2 Btn_DeleteCart;
         private Bunifu.UI.WinForms.BunifuTextBox TB_SearchByColor;
         private Bunifu.UI.WinForms.BunifuTextBox TB_SearchByBrand;
         private System.Windows.Forms.Label label1;
@@ -942,5 +1035,6 @@ namespace PaintStoreManagerCatMan.Forms
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
+        private Bunifu.UI.WinForms.BunifuButton.BunifuButton BtnClear;
     }
 }

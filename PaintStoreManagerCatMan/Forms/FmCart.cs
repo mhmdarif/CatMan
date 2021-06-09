@@ -17,6 +17,7 @@ namespace PaintStoreManagerCatMan.Forms
     {
         readonly string connstring = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Database\PaintStoreDB.mdf;Integrated Security=True;Connect Timeout=30";
         readonly private PaintSvs newPaint = new PaintSvs();
+        readonly private CartSvs newCart = new CartSvs();
 
         public FmCart()
         {
@@ -28,14 +29,36 @@ namespace PaintStoreManagerCatMan.Forms
 
         }
 
-        private void Btn_Clear_Click(object sender, EventArgs e)
-        {
-            ClearAll();
-        }
-
         private void Btn_AddCart_Click(object sender, EventArgs e)
         {
+            
+            int id = int.Parse(DGV_PaintCart.CurrentRow.Cells[0].Value.ToString());
+            string _Brand = "";
+            string _Color = "";
+            string _category = "";
+            string _size = "";
+            double _Price = 0;
 
+            string sql = "select * from TblPaints where Id = '" + id + "' ";
+            
+            SqlConnection con = new SqlConnection(connstring);
+
+            con.Open();
+            SqlCommand cmd = new SqlCommand(sql, con);
+            SqlDataReader dr = cmd.ExecuteReader();
+            while (dr.Read())
+            {
+                _Brand = dr[1].ToString();
+                _Color = dr[2].ToString();
+                _category = dr[3].ToString();
+                _size = dr[4].ToString();
+                _Price = double.Parse(dr[6].ToString());
+            }
+            con.Close();
+
+            newCart.Add(_Brand, _Color,_category, _size, _Price);
+
+            UpdateDgv();
         }
 
         private void FillCombo()
@@ -62,15 +85,9 @@ namespace PaintStoreManagerCatMan.Forms
             UpdateDgv();
             FillCombo();
         }
-
-
-        private int GetId()
-        {
-            return int.Parse(DGV_PaintCart.CurrentRow.Cells[0].Value.ToString());
-        }
+        
         private void ClearAll()
         {
-            TB_CustomerEmail.Clear();
             TB_CustomerName.Clear();
             Tb_CustomerCash.Clear();
         }
@@ -78,6 +95,8 @@ namespace PaintStoreManagerCatMan.Forms
         {
             List<Paints> dgv = newPaint.GetAllPaints();
             DGV_PaintCart.DataSource = dgv;
+            List<Carts> dgvCart = newCart.GetAllCarts();
+            DGV_Cart.DataSource = dgvCart;
         }
 
         private void bunifuTextBox2_TextChanged(object sender, EventArgs e)
@@ -122,6 +141,20 @@ namespace PaintStoreManagerCatMan.Forms
                 DGV_PaintCart.DataSource = dgv;
             }
 
+        }
+
+        private void BtnClear_Click(object sender, EventArgs e)
+        {
+            ClearAll();
+        }
+
+        private void Btn_DeleteCart_Click(object sender, EventArgs e)
+        {
+            int id = int.Parse(DGV_Cart.CurrentRow.Cells[0].Value.ToString());
+
+            newCart.Delete(id);
+
+            UpdateDgv();
         }
     }
 }
