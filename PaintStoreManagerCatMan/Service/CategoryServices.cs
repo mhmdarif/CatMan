@@ -12,16 +12,36 @@ namespace PaintStoreManagerCatMan.Service
     class CategoryServices : ICategorySvs
     {
         readonly string connstring = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Database\PaintStoreDB.mdf;Integrated Security=True;Connect Timeout=30";
-        
+
         public List<Category> GetAllCategories()
         {
-            throw new NotImplementedException();
+            List<Category> ListCate = new List<Category>();
+
+            SqlConnection con = new SqlConnection(connstring);
+            string sql = "SELECT * FROM TblCategories";
+
+            con.Open();
+
+            SqlCommand cmd = new SqlCommand(sql, con);
+            SqlDataReader dr = cmd.ExecuteReader();
+            while (dr.Read())
+            {
+                Category newCate = new Category();
+
+                newCate.CatId = (int)dr["Id"];
+                newCate.CatName = dr["CateName"].ToString();
+                newCate.CatDesc = dr["CateDesc"].ToString();
+
+                ListCate.Add(newCate);
+            }
+
+            return ListCate;
         }
 
         public void Add(string catname, string catdesc)
         {
             SqlConnection con = new SqlConnection(connstring);
-            string sql = "insert into TblCategories (Catename, CateDesc) values('" + catname"','" +y + "','" + hour + "')";
+            string sql = "insert into TblCategories (Catename, CateDesc) values('" + catname + "','" + catdesc + "')";
 
             con.Open();
             SqlCommand cmd = new SqlCommand(sql, con);
@@ -31,12 +51,31 @@ namespace PaintStoreManagerCatMan.Service
 
         public void Delete(int id)
         {
-            throw new NotImplementedException();
+            SqlConnection con = new SqlConnection(connstring);
+            string sql = "delete from TblCategories where Id = @Id";
+
+            con.Open();
+            SqlCommand cmd = new SqlCommand(sql, con);
+            cmd.Parameters.AddWithValue("@Id", id);
+            cmd.ExecuteNonQuery();
+            
+            con.Close();
         }
 
         public void Update(int id, string catname, string catdesc)
         {
-            throw new NotImplementedException();
+            SqlConnection con = new SqlConnection(connstring);
+            string sql = "UPDATE TblCategories SET CateName = @CateName, CateDesc = @CateDesc where Id = @Id";
+            
+            con.Open();
+
+            SqlCommand cmd = new SqlCommand(sql, con);
+            cmd.Parameters.AddWithValue("@CateName", catname);
+            cmd.Parameters.AddWithValue("@Id", id);
+            cmd.Parameters.AddWithValue("@CateDesc", catdesc);
+            cmd.ExecuteNonQuery();
+
+            con.Close();
         }
     }
 }

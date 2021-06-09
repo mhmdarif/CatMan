@@ -16,5 +16,10 @@ namespace PaintStoreManagerCatMan.Forms
         {
             InitializeComponent();
         }
+
+        private void bunifuTextBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

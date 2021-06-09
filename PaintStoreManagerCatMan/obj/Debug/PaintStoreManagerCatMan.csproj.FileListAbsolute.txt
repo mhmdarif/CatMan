@@ -1,7 +1,6 @@
 G:\@CatMan\CatMan\PaintStoreManagerCatMan\bin\Debug\PaintStoreManagerCatMan.exe.config
 G:\@CatMan\CatMan\PaintStoreManagerCatMan\bin\Debug\PaintStoreManagerCatMan.exe
 G:\@CatMan\CatMan\PaintStoreManagerCatMan\bin\Debug\PaintStoreManagerCatMan.pdb
-G:\@CatMan\CatMan\PaintStoreManagerCatMan\obj\Debug\PaintStoreManagerCatMan.csprojAssemblyReference.cache
 G:\@CatMan\CatMan\PaintStoreManagerCatMan\obj\Debug\PaintStoreManagerCatMan.Forms.FmLogin.resources
 G:\@CatMan\CatMan\PaintStoreManagerCatMan\obj\Debug\PaintStoreManagerCatMan.Properties.Resources.resources
 G:\@CatMan\CatMan\PaintStoreManagerCatMan\obj\Debug\PaintStoreManagerCatMan.csproj.GenerateResource.cache
@@ -82,3 +81,6 @@ G:\@CatMan\CatMan\PaintStoreManagerCatMan\obj\Debug\PaintStoreManagerCatMan.Form
 G:\@CatMan\CatMan\PaintStoreManagerCatMan\obj\Debug\PaintStoreManagerCatMan.Forms.FmCategories.resources
 G:\@CatMan\CatMan\PaintStoreManagerCatMan\obj\Debug\PaintStoreManagerCatMan.Forms.FmReports.resources
 G:\@CatMan\CatMan\PaintStoreManagerCatMan\obj\Debug\PaintStoreManagerCatMan.Forms.FmUsers.resources
+G:\@CatMan\CatMan\PaintStoreManagerCatMan\bin\Debug\PaintStoreDB.mdf
+G:\@CatMan\CatMan\PaintStoreManagerCatMan\bin\Debug\PaintStoreDB_log.ldf
+G:\@CatMan\CatMan\PaintStoreManagerCatMan\obj\Debug\PaintStoreManagerCatMan.csprojAssemblyReference.cache
