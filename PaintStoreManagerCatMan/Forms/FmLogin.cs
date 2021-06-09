@@ -7,11 +7,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using PaintStoreManagerCatMan.Service;
+using System.Data.SqlClient;
+using PaintStoreManagerCatMan.Entity;
+
+using System.Windows.Forms;
 
 namespace PaintStoreManagerCatMan.Forms
 {
+    
     public partial class FmLogin : Form
     {
+        readonly string connstring = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Database\PaintStoreDB.mdf;Integrated Security=True;Connect Timeout=30";
         public FmLogin()
         {
             InitializeComponent();
@@ -66,6 +73,25 @@ namespace PaintStoreManagerCatMan.Forms
             TB_Username.Clear();
             TB_Password.Clear();
             CB_Role.SelectedItem = "Select a Role";
+        }
+
+        private void FillCombo()
+        {
+            SqlConnection con = new SqlConnection(connstring);
+            string sql = "SELECT Username, Id FROM TblUsers";
+
+            con.Open();
+
+            SqlCommand cmd = new SqlCommand(sql, con);
+            SqlDataReader dr;
+            dr = cmd.ExecuteReader();
+            while (dr.Read())
+            {
+                CB_Role.Items.Add(dr["Username"].ToString());
+                CB_Role.DisplayMember = dr["Username"].ToString();
+                CB_Role.ValueMember = dr["Id"].ToString();
+            }
+            con.Close();
         }
     }
 }

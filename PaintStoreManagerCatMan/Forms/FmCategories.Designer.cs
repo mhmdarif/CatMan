@@ -64,6 +64,9 @@ namespace PaintStoreManagerCatMan.Forms
             this.tblCategoriesDataSet = new PaintStoreManagerCatMan.TblCategoriesDataSet();
             this.tblCategoriesBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.tblCategoriesTableAdapter1 = new PaintStoreManagerCatMan.TblCategoriesDataSetTableAdapters.TblCategoriesTableAdapter();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DGV_Cate)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.paintStoreDBDataSet)).BeginInit();
@@ -90,6 +93,7 @@ namespace PaintStoreManagerCatMan.Forms
             dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
             this.DGV_Cate.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.DGV_Cate.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.DGV_Cate.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
             this.DGV_Cate.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.DGV_Cate.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.DGV_Cate.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
@@ -102,6 +106,10 @@ namespace PaintStoreManagerCatMan.Forms
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.DGV_Cate.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.DGV_Cate.ColumnHeadersHeight = 40;
+            this.DGV_Cate.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Column1,
+            this.Column2,
+            this.Column3});
             this.DGV_Cate.CurrentTheme.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
             this.DGV_Cate.CurrentTheme.AlternatingRowsStyle.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
             this.DGV_Cate.CurrentTheme.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Black;
@@ -580,6 +588,24 @@ namespace PaintStoreManagerCatMan.Forms
             // 
             this.tblCategoriesTableAdapter1.ClearBeforeFill = true;
             // 
+            // Column1
+            // 
+            this.Column1.DataPropertyName = "Id";
+            this.Column1.HeaderText = "Id";
+            this.Column1.Name = "Column1";
+            // 
+            // Column2
+            // 
+            this.Column2.DataPropertyName = "CateName";
+            this.Column2.HeaderText = "Category";
+            this.Column2.Name = "Column2";
+            // 
+            // Column3
+            // 
+            this.Column3.DataPropertyName = "CateDesc";
+            this.Column3.HeaderText = "Description";
+            this.Column3.Name = "Column3";
+            // 
             // FmCategories
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -627,5 +653,8 @@ namespace PaintStoreManagerCatMan.Forms
         private System.Windows.Forms.BindingSource tblCategoriesBindingSource1;
         private TblCategoriesDataSetTableAdapters.TblCategoriesTableAdapter tblCategoriesTableAdapter1;
         private Bunifu.UI.WinForms.BunifuDataGridView DGV_Cate;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
     }
 }

@@ -10,8 +10,8 @@ namespace PaintStoreManagerCatMan.Service
     interface IUserSvs
     {
         List<User> GetAllUser();
-        void Add(string nama, string username, string pass);
-        void Update(int id, string nama, string username, string pass);
+        void Add(string name, string username, string pass, string level);
+        void Update(int id, string name, string username, string pass, string level);
         void Delete(int id);
     }
 }

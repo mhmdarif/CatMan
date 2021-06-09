@@ -10,8 +10,8 @@ namespace PaintStoreManagerCatMan.Service
     interface IPaintSvs
     {
         List<Paints> GetAllPaints();
-        void Add(string ctg, string nama, string color, string size, int qty, double bp, double sp);
-        void Update(int id, string ctg, string nama, string color, string size, int qty, double bp, double sp);
+        void Add( string nama, string color, string ctg, string size, int qty, double bp, double sp);
+        void Update(int id,  string nama, string color, string ctg, string size, int qty, double bp, double sp);
         void Delete(int id);
     }
 }

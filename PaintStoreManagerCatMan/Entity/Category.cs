@@ -9,9 +9,9 @@ namespace PaintStoreManagerCatMan.Entity
     class Category
     {
         // properties
-        public int CatId { get; set; }
-        public string CatName { get; set; }
-        public string CatDesc { get; set; }
+        public int Id { get; set; }
+        public string CateName { get; set; }
+        public string CateDesc { get; set; }
 
 
         // constructor
@@ -21,9 +21,9 @@ namespace PaintStoreManagerCatMan.Entity
         }
         public Category(int id, string name, string desc)
         {
-            CatId = id;
-            CatName = name;
-            CatDesc = desc;
+            Id = id;
+            CateName = name;
+            CateDesc = desc;
         }
 
     }

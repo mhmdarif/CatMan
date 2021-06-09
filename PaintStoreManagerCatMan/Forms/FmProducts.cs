@@ -25,6 +25,7 @@ namespace PaintStoreManagerCatMan.Forms
         private void FmProducts_Load(object sender, EventArgs e)
         {
             UpdateDgv();
+            FillCombo();
         }
 
         private void Btn_Add_Click(object sender, EventArgs e)
@@ -92,6 +93,24 @@ namespace PaintStoreManagerCatMan.Forms
         {
             List<Paints> dgv = newItems.GetAllPaints();
             DGV_Paint.DataSource = dgv;
+        }
+        private void FillCombo()
+        {
+            SqlConnection con = new SqlConnection(connstring);
+            string sql = "SELECT CateName, Id FROM TblCategories";
+
+            con.Open();
+
+            SqlCommand cmd = new SqlCommand(sql, con);
+            SqlDataReader dr;
+            dr = cmd.ExecuteReader();
+            while (dr.Read())
+            {
+                CB_CatePaint.Items.Add(dr["CateName"].ToString());
+                CB_CatePaint.DisplayMember = dr["CateName"].ToString();
+                CB_CatePaint.ValueMember = dr["Id"].ToString();
+            }
+            con.Close();
         }
     }
 }

@@ -28,9 +28,9 @@ namespace PaintStoreManagerCatMan.Service
             {
                 Category newCate = new Category();
 
-                newCate.CatId = (int)dr["Id"];
-                newCate.CatName = dr["CateName"].ToString();
-                newCate.CatDesc = dr["CateDesc"].ToString();
+                newCate.Id = (int)dr["Id"];
+                newCate.CateName = dr["CateName"].ToString();
+                newCate.CateDesc = dr["CateDesc"].ToString();
 
                 ListCate.Add(newCate);
             }

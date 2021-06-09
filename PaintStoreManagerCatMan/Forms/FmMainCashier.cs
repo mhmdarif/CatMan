@@ -37,12 +37,12 @@ namespace PaintStoreManagerCatMan.Forms
 
         private void Btn_Cart_Click(object sender, EventArgs e)
         {
-
+            OpenChildForm(new Forms.FmCart(), sender);
         }
 
         private void Btn_History_Click(object sender, EventArgs e)
         {
-
+            OpenChildForm(new Forms.FmReports(), sender);
         }
 
         private void Btn_Logout_Click(object sender, EventArgs e)

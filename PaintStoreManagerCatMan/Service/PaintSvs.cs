@@ -16,7 +16,7 @@ namespace PaintStoreManagerCatMan.Service
 
         public List<Paints> GetAllPaints()
         {
-            List<Paints> ListPaint = new List<Paints>();
+            List<Paints> ListPaints = new List<Paints>();
 
             SqlConnection con = new SqlConnection(connstring);
             string sql = "SELECT * FROM TblPaints";
@@ -27,21 +27,21 @@ namespace PaintStoreManagerCatMan.Service
             SqlDataReader dr = cmd.ExecuteReader();
             while (dr.Read())
             {
-                Paints newPaint = new Paints();
+                Paints newPaints = new Paints();
 
-                newPaint.Id = (int)dr["Id"];
-                newPaint.Brand = dr["Brand"].ToString();
-                newPaint.Color = dr["Color"].ToString();
-                newPaint.Category = dr["Category"].ToString();
-                newPaint.Size = dr["Size"].ToString();
-                newPaint.Quantity = (int)dr["Quantity"];
-                newPaint.BuyPrice = (double)dr["BuyPrice"];
-                newPaint.SellPrice = (double)dr["SellPrice"];
+                newPaints.Id = (int)dr["Id"];
+                newPaints.Brand = dr["Brand"].ToString();
+                newPaints.Color = dr["Color"].ToString();
+                newPaints.Category = dr["Category"].ToString();
+                newPaints.Size = dr["Size"].ToString();
+                newPaints.Quantity = (int)dr["Quantity"];
+                newPaints.BuyPrice = (double)dr["BuyPrice"];
+                newPaints.SellPrice = (double)dr["SellPrice"];
 
-                ListPaint.Add(newPaint);
+                ListPaints.Add(newPaints);
             }
 
-            return ListPaint;
+            return ListPaints;
         }
 
         public void Add(string nama, string color, string ctg, string size, int qty, double bp, double sp)
@@ -68,7 +68,7 @@ namespace PaintStoreManagerCatMan.Service
             con.Close();
         }
 
-        public void Update(int id, string ctg, string nama, string color, string size, int qty, double bp, double sp)
+        public void Update(int id, string nama, string color, string ctg, string size, int qty, double bp, double sp)
         {
             SqlConnection con = new SqlConnection(connstring);
             string sql = "UPDATE TblPaints SET Brand = @Brand , Color = @Color,Category = @Category, Size = @Size , Quantity = @Quantity , BuyPrice = @BuyPrice, SellPrice = @SellPrice where Id = @Id";
@@ -88,5 +88,7 @@ namespace PaintStoreManagerCatMan.Service
 
             con.Close();
         }
+
+        
     }
 }

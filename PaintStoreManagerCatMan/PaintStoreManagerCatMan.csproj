@@ -163,6 +163,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entity\Carts.cs" />
     <Compile Include="Entity\Category.cs" />
     <Compile Include="Entity\Paints.cs" />
     <Compile Include="Entity\User.cs" />
@@ -219,8 +220,14 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>PaintStoreDBDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="PaintStoreDBDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PaintStoreDBDataSet1.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service\CartSvs.cs" />
     <Compile Include="Service\CategoryServices.cs" />
     <Compile Include="Service\ICategorySvs.cs" />
     <Compile Include="Service\IPaintSvs.cs" />
@@ -277,6 +284,17 @@
     </None>
     <None Include="PaintStoreDBDataSet.xss">
       <DependentUpon>PaintStoreDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="PaintStoreDBDataSet1.xsc">
+      <DependentUpon>PaintStoreDBDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="PaintStoreDBDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PaintStoreDBDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PaintStoreDBDataSet1.xss">
+      <DependentUpon>PaintStoreDBDataSet1.xsd</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

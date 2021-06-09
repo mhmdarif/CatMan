@@ -86,6 +86,14 @@ namespace PaintStoreManagerCatMan.Forms
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.TB_SellPrice = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.Id = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Category = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.paintStoreDBDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tblCategoriesBindingSource1)).BeginInit();
             this.panel1.SuspendLayout();
@@ -115,10 +123,10 @@ namespace PaintStoreManagerCatMan.Forms
             this.Btn_Delete.IdleFillColor = System.Drawing.Color.DarkOrange;
             this.Btn_Delete.IdleForecolor = System.Drawing.Color.White;
             this.Btn_Delete.IdleLineColor = System.Drawing.Color.DarkOrange;
-            this.Btn_Delete.Location = new System.Drawing.Point(930, 477);
+            this.Btn_Delete.Location = new System.Drawing.Point(974, 464);
             this.Btn_Delete.Margin = new System.Windows.Forms.Padding(5);
             this.Btn_Delete.Name = "Btn_Delete";
-            this.Btn_Delete.Size = new System.Drawing.Size(124, 51);
+            this.Btn_Delete.Size = new System.Drawing.Size(80, 64);
             this.Btn_Delete.TabIndex = 19;
             this.Btn_Delete.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.Btn_Delete.Click += new System.EventHandler(this.Btn_Delete_Click);
@@ -141,10 +149,10 @@ namespace PaintStoreManagerCatMan.Forms
             this.Btn_Update.IdleFillColor = System.Drawing.Color.DarkOrange;
             this.Btn_Update.IdleForecolor = System.Drawing.Color.White;
             this.Btn_Update.IdleLineColor = System.Drawing.Color.DarkOrange;
-            this.Btn_Update.Location = new System.Drawing.Point(796, 477);
+            this.Btn_Update.Location = new System.Drawing.Point(882, 464);
             this.Btn_Update.Margin = new System.Windows.Forms.Padding(5);
             this.Btn_Update.Name = "Btn_Update";
-            this.Btn_Update.Size = new System.Drawing.Size(124, 51);
+            this.Btn_Update.Size = new System.Drawing.Size(82, 64);
             this.Btn_Update.TabIndex = 18;
             this.Btn_Update.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.Btn_Update.Click += new System.EventHandler(this.Btn_Update_Click);
@@ -242,7 +250,7 @@ namespace PaintStoreManagerCatMan.Forms
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(679, 87);
+            this.label2.Location = new System.Drawing.Point(759, 87);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(41, 13);
             this.label2.TabIndex = 15;
@@ -251,7 +259,7 @@ namespace PaintStoreManagerCatMan.Forms
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(679, 361);
+            this.label1.Location = new System.Drawing.Point(759, 361);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(55, 13);
             this.label1.TabIndex = 14;
@@ -284,7 +292,7 @@ namespace PaintStoreManagerCatMan.Forms
             this.TB_Brand.IconRight = null;
             this.TB_Brand.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.TB_Brand.Lines = new string[0];
-            this.TB_Brand.Location = new System.Drawing.Point(761, 63);
+            this.TB_Brand.Location = new System.Drawing.Point(842, 63);
             this.TB_Brand.MaxLength = 32767;
             this.TB_Brand.MinimumSize = new System.Drawing.Size(1, 1);
             this.TB_Brand.Modified = false;
@@ -320,7 +328,7 @@ namespace PaintStoreManagerCatMan.Forms
             this.TB_Brand.SelectionLength = 0;
             this.TB_Brand.SelectionStart = 0;
             this.TB_Brand.ShortcutsEnabled = true;
-            this.TB_Brand.Size = new System.Drawing.Size(283, 37);
+            this.TB_Brand.Size = new System.Drawing.Size(202, 37);
             this.TB_Brand.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.TB_Brand.TabIndex = 12;
             this.TB_Brand.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -394,7 +402,7 @@ namespace PaintStoreManagerCatMan.Forms
             this.TB_SearchPaint.SelectionLength = 0;
             this.TB_SearchPaint.SelectionStart = 0;
             this.TB_SearchPaint.ShortcutsEnabled = true;
-            this.TB_SearchPaint.Size = new System.Drawing.Size(579, 37);
+            this.TB_SearchPaint.Size = new System.Drawing.Size(693, 37);
             this.TB_SearchPaint.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.TB_SearchPaint.TabIndex = 1;
             this.TB_SearchPaint.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -423,10 +431,10 @@ namespace PaintStoreManagerCatMan.Forms
             this.Btn_Add.IdleFillColor = System.Drawing.Color.DarkOrange;
             this.Btn_Add.IdleForecolor = System.Drawing.Color.White;
             this.Btn_Add.IdleLineColor = System.Drawing.Color.DarkOrange;
-            this.Btn_Add.Location = new System.Drawing.Point(662, 477);
+            this.Btn_Add.Location = new System.Drawing.Point(762, 464);
             this.Btn_Add.Margin = new System.Windows.Forms.Padding(5);
             this.Btn_Add.Name = "Btn_Add";
-            this.Btn_Add.Size = new System.Drawing.Size(124, 51);
+            this.Btn_Add.Size = new System.Drawing.Size(110, 64);
             this.Btn_Add.TabIndex = 16;
             this.Btn_Add.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.Btn_Add.Click += new System.EventHandler(this.Btn_Add_Click);
@@ -439,7 +447,7 @@ namespace PaintStoreManagerCatMan.Forms
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(635, 542);
+            this.panel1.Size = new System.Drawing.Size(741, 542);
             this.panel1.TabIndex = 11;
             // 
             // DGV_Paint
@@ -461,7 +469,16 @@ namespace PaintStoreManagerCatMan.Forms
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.White;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.DGV_Paint.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            this.DGV_Paint.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DGV_Paint.ColumnHeadersHeight = 40;
+            this.DGV_Paint.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Id,
+            this.Column1,
+            this.Column2,
+            this.Category,
+            this.Column4,
+            this.Column3,
+            this.Column5,
+            this.Column6});
             this.DGV_Paint.CurrentTheme.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
             this.DGV_Paint.CurrentTheme.AlternatingRowsStyle.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
             this.DGV_Paint.CurrentTheme.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Black;
@@ -493,12 +510,12 @@ namespace PaintStoreManagerCatMan.Forms
             this.DGV_Paint.HeaderBackColor = System.Drawing.Color.DodgerBlue;
             this.DGV_Paint.HeaderBgColor = System.Drawing.Color.Empty;
             this.DGV_Paint.HeaderForeColor = System.Drawing.Color.White;
-            this.DGV_Paint.Location = new System.Drawing.Point(25, 79);
+            this.DGV_Paint.Location = new System.Drawing.Point(25, 87);
             this.DGV_Paint.Name = "DGV_Paint";
             this.DGV_Paint.RowHeadersVisible = false;
             this.DGV_Paint.RowTemplate.Height = 40;
             this.DGV_Paint.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.DGV_Paint.Size = new System.Drawing.Size(579, 451);
+            this.DGV_Paint.Size = new System.Drawing.Size(693, 441);
             this.DGV_Paint.TabIndex = 2;
             this.DGV_Paint.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Light;
             // 
@@ -514,14 +531,11 @@ namespace PaintStoreManagerCatMan.Forms
             this.CB_CatePaint.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.CB_CatePaint.HoverState.Parent = this.CB_CatePaint;
             this.CB_CatePaint.ItemHeight = 30;
-            this.CB_CatePaint.Items.AddRange(new object[] {
-            "Cat Tembok",
-            "Cat Kayu"});
             this.CB_CatePaint.ItemsAppearance.Parent = this.CB_CatePaint;
-            this.CB_CatePaint.Location = new System.Drawing.Point(761, 338);
+            this.CB_CatePaint.Location = new System.Drawing.Point(842, 338);
             this.CB_CatePaint.Name = "CB_CatePaint";
             this.CB_CatePaint.ShadowDecoration.Parent = this.CB_CatePaint;
-            this.CB_CatePaint.Size = new System.Drawing.Size(283, 36);
+            this.CB_CatePaint.Size = new System.Drawing.Size(202, 36);
             this.CB_CatePaint.TabIndex = 20;
             // 
             // Tb_Color
@@ -551,7 +565,7 @@ namespace PaintStoreManagerCatMan.Forms
             this.Tb_Color.IconRight = null;
             this.Tb_Color.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.Tb_Color.Lines = new string[0];
-            this.Tb_Color.Location = new System.Drawing.Point(761, 106);
+            this.Tb_Color.Location = new System.Drawing.Point(842, 106);
             this.Tb_Color.MaxLength = 32767;
             this.Tb_Color.MinimumSize = new System.Drawing.Size(1, 1);
             this.Tb_Color.Modified = false;
@@ -587,7 +601,7 @@ namespace PaintStoreManagerCatMan.Forms
             this.Tb_Color.SelectionLength = 0;
             this.Tb_Color.SelectionStart = 0;
             this.Tb_Color.ShortcutsEnabled = true;
-            this.Tb_Color.Size = new System.Drawing.Size(283, 37);
+            this.Tb_Color.Size = new System.Drawing.Size(202, 37);
             this.Tb_Color.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.Tb_Color.TabIndex = 21;
             this.Tb_Color.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -625,7 +639,7 @@ namespace PaintStoreManagerCatMan.Forms
             this.TB_Size.IconRight = null;
             this.TB_Size.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.TB_Size.Lines = new string[0];
-            this.TB_Size.Location = new System.Drawing.Point(761, 155);
+            this.TB_Size.Location = new System.Drawing.Point(842, 155);
             this.TB_Size.MaxLength = 32767;
             this.TB_Size.MinimumSize = new System.Drawing.Size(1, 1);
             this.TB_Size.Modified = false;
@@ -661,7 +675,7 @@ namespace PaintStoreManagerCatMan.Forms
             this.TB_Size.SelectionLength = 0;
             this.TB_Size.SelectionStart = 0;
             this.TB_Size.ShortcutsEnabled = true;
-            this.TB_Size.Size = new System.Drawing.Size(283, 37);
+            this.TB_Size.Size = new System.Drawing.Size(202, 37);
             this.TB_Size.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.TB_Size.TabIndex = 22;
             this.TB_Size.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -699,7 +713,7 @@ namespace PaintStoreManagerCatMan.Forms
             this.TB_Quantity.IconRight = null;
             this.TB_Quantity.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.TB_Quantity.Lines = new string[0];
-            this.TB_Quantity.Location = new System.Drawing.Point(761, 198);
+            this.TB_Quantity.Location = new System.Drawing.Point(842, 198);
             this.TB_Quantity.MaxLength = 32767;
             this.TB_Quantity.MinimumSize = new System.Drawing.Size(1, 1);
             this.TB_Quantity.Modified = false;
@@ -735,7 +749,7 @@ namespace PaintStoreManagerCatMan.Forms
             this.TB_Quantity.SelectionLength = 0;
             this.TB_Quantity.SelectionStart = 0;
             this.TB_Quantity.ShortcutsEnabled = true;
-            this.TB_Quantity.Size = new System.Drawing.Size(283, 37);
+            this.TB_Quantity.Size = new System.Drawing.Size(202, 37);
             this.TB_Quantity.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.TB_Quantity.TabIndex = 23;
             this.TB_Quantity.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -773,7 +787,7 @@ namespace PaintStoreManagerCatMan.Forms
             this.TB_BuyPrice.IconRight = null;
             this.TB_BuyPrice.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.TB_BuyPrice.Lines = new string[0];
-            this.TB_BuyPrice.Location = new System.Drawing.Point(761, 241);
+            this.TB_BuyPrice.Location = new System.Drawing.Point(842, 241);
             this.TB_BuyPrice.MaxLength = 32767;
             this.TB_BuyPrice.MinimumSize = new System.Drawing.Size(1, 1);
             this.TB_BuyPrice.Modified = false;
@@ -809,7 +823,7 @@ namespace PaintStoreManagerCatMan.Forms
             this.TB_BuyPrice.SelectionLength = 0;
             this.TB_BuyPrice.SelectionStart = 0;
             this.TB_BuyPrice.ShortcutsEnabled = true;
-            this.TB_BuyPrice.Size = new System.Drawing.Size(283, 37);
+            this.TB_BuyPrice.Size = new System.Drawing.Size(202, 37);
             this.TB_BuyPrice.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.TB_BuyPrice.TabIndex = 24;
             this.TB_BuyPrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -823,7 +837,7 @@ namespace PaintStoreManagerCatMan.Forms
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(679, 130);
+            this.label3.Location = new System.Drawing.Point(759, 130);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(37, 13);
             this.label3.TabIndex = 25;
@@ -832,7 +846,7 @@ namespace PaintStoreManagerCatMan.Forms
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(679, 179);
+            this.label4.Location = new System.Drawing.Point(759, 179);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(33, 13);
             this.label4.TabIndex = 26;
@@ -841,7 +855,7 @@ namespace PaintStoreManagerCatMan.Forms
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(679, 222);
+            this.label5.Location = new System.Drawing.Point(759, 222);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(52, 13);
             this.label5.TabIndex = 27;
@@ -850,7 +864,7 @@ namespace PaintStoreManagerCatMan.Forms
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(679, 265);
+            this.label6.Location = new System.Drawing.Point(759, 265);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(58, 13);
             this.label6.TabIndex = 28;
@@ -859,7 +873,7 @@ namespace PaintStoreManagerCatMan.Forms
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(679, 308);
+            this.label7.Location = new System.Drawing.Point(759, 308);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(57, 13);
             this.label7.TabIndex = 30;
@@ -892,7 +906,7 @@ namespace PaintStoreManagerCatMan.Forms
             this.TB_SellPrice.IconRight = null;
             this.TB_SellPrice.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.TB_SellPrice.Lines = new string[0];
-            this.TB_SellPrice.Location = new System.Drawing.Point(761, 284);
+            this.TB_SellPrice.Location = new System.Drawing.Point(842, 284);
             this.TB_SellPrice.MaxLength = 32767;
             this.TB_SellPrice.MinimumSize = new System.Drawing.Size(1, 1);
             this.TB_SellPrice.Modified = false;
@@ -928,7 +942,7 @@ namespace PaintStoreManagerCatMan.Forms
             this.TB_SellPrice.SelectionLength = 0;
             this.TB_SellPrice.SelectionStart = 0;
             this.TB_SellPrice.ShortcutsEnabled = true;
-            this.TB_SellPrice.Size = new System.Drawing.Size(283, 37);
+            this.TB_SellPrice.Size = new System.Drawing.Size(202, 37);
             this.TB_SellPrice.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.TB_SellPrice.TabIndex = 29;
             this.TB_SellPrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -938,6 +952,54 @@ namespace PaintStoreManagerCatMan.Forms
             this.TB_SellPrice.TextPlaceholder = "Sell price";
             this.TB_SellPrice.UseSystemPasswordChar = false;
             this.TB_SellPrice.WordWrap = true;
+            // 
+            // Id
+            // 
+            this.Id.DataPropertyName = "Id";
+            this.Id.HeaderText = "Id";
+            this.Id.Name = "Id";
+            // 
+            // Column1
+            // 
+            this.Column1.DataPropertyName = "Brand";
+            this.Column1.HeaderText = "Brand";
+            this.Column1.Name = "Column1";
+            // 
+            // Column2
+            // 
+            this.Column2.DataPropertyName = "Color";
+            this.Column2.HeaderText = "Color";
+            this.Column2.Name = "Column2";
+            // 
+            // Category
+            // 
+            this.Category.DataPropertyName = "Category";
+            this.Category.HeaderText = "Category";
+            this.Category.Name = "Category";
+            // 
+            // Column4
+            // 
+            this.Column4.DataPropertyName = "Quantity";
+            this.Column4.HeaderText = "Quantity";
+            this.Column4.Name = "Column4";
+            // 
+            // Column3
+            // 
+            this.Column3.DataPropertyName = "Size";
+            this.Column3.HeaderText = "Size";
+            this.Column3.Name = "Column3";
+            // 
+            // Column5
+            // 
+            this.Column5.DataPropertyName = "BuyPrice";
+            this.Column5.HeaderText = "Buy Price";
+            this.Column5.Name = "Column5";
+            // 
+            // Column6
+            // 
+            this.Column6.DataPropertyName = "SellPrice";
+            this.Column6.HeaderText = "Sell Price";
+            this.Column6.Name = "Column6";
             // 
             // FmProducts
             // 
@@ -987,7 +1049,6 @@ namespace PaintStoreManagerCatMan.Forms
         private Bunifu.UI.WinForms.BunifuTextBox TB_SearchPaint;
         private Bunifu.Framework.UI.BunifuThinButton2 Btn_Add;
         private System.Windows.Forms.Panel panel1;
-        private Bunifu.UI.WinForms.BunifuDataGridView DGV_Paint;
         private Guna.UI2.WinForms.Guna2ComboBox CB_CatePaint;
         private Bunifu.UI.WinForms.BunifuTextBox Tb_Color;
         private Bunifu.UI.WinForms.BunifuTextBox TB_Size;
@@ -999,5 +1060,14 @@ namespace PaintStoreManagerCatMan.Forms
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private Bunifu.UI.WinForms.BunifuTextBox TB_SellPrice;
+        private Bunifu.UI.WinForms.BunifuDataGridView DGV_Paint;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Id;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Category;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
     }
 }

@@ -31,13 +31,13 @@ namespace PaintStoreManagerCatMan.Forms
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FmMainCashier));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.panelDesktop = new System.Windows.Forms.Panel();
-            this.Btn_Cart = new System.Windows.Forms.Button();
-            this.Btn_History = new System.Windows.Forms.Button();
             this.Btn_Logout = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.Btn_History = new System.Windows.Forms.Button();
+            this.Btn_Cart = new System.Windows.Forms.Button();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.Lbl_Title = new System.Windows.Forms.Label();
+            this.panelDesktop = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -54,69 +54,6 @@ namespace PaintStoreManagerCatMan.Forms
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(200, 681);
             this.panel1.TabIndex = 0;
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.DarkOrange;
-            this.panel2.Controls.Add(this.Lbl_Title);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(200, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1084, 100);
-            this.panel2.TabIndex = 1;
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(58)))));
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel3.Location = new System.Drawing.Point(0, 0);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(200, 100);
-            this.panel3.TabIndex = 0;
-            // 
-            // panelDesktop
-            // 
-            this.panelDesktop.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelDesktop.Location = new System.Drawing.Point(200, 100);
-            this.panelDesktop.Name = "panelDesktop";
-            this.panelDesktop.Size = new System.Drawing.Size(1084, 581);
-            this.panelDesktop.TabIndex = 2;
-            // 
-            // Btn_Cart
-            // 
-            this.Btn_Cart.Dock = System.Windows.Forms.DockStyle.Top;
-            this.Btn_Cart.FlatAppearance.BorderSize = 0;
-            this.Btn_Cart.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Btn_Cart.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn_Cart.ForeColor = System.Drawing.Color.White;
-            this.Btn_Cart.Location = new System.Drawing.Point(0, 100);
-            this.Btn_Cart.Name = "Btn_Cart";
-            this.Btn_Cart.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.Btn_Cart.Size = new System.Drawing.Size(200, 65);
-            this.Btn_Cart.TabIndex = 0;
-            this.Btn_Cart.Text = "Cart";
-            this.Btn_Cart.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Btn_Cart.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.Btn_Cart.UseVisualStyleBackColor = true;
-            this.Btn_Cart.Click += new System.EventHandler(this.Btn_Cart_Click);
-            // 
-            // Btn_History
-            // 
-            this.Btn_History.Dock = System.Windows.Forms.DockStyle.Top;
-            this.Btn_History.FlatAppearance.BorderSize = 0;
-            this.Btn_History.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Btn_History.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn_History.ForeColor = System.Drawing.Color.White;
-            this.Btn_History.Location = new System.Drawing.Point(0, 165);
-            this.Btn_History.Name = "Btn_History";
-            this.Btn_History.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.Btn_History.Size = new System.Drawing.Size(200, 65);
-            this.Btn_History.TabIndex = 1;
-            this.Btn_History.Text = "History";
-            this.Btn_History.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Btn_History.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.Btn_History.UseVisualStyleBackColor = true;
-            this.Btn_History.Click += new System.EventHandler(this.Btn_History_Click);
             // 
             // Btn_Logout
             // 
@@ -144,6 +81,61 @@ namespace PaintStoreManagerCatMan.Forms
             this.Btn_Logout.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.Btn_Logout.Click += new System.EventHandler(this.Btn_Logout_Click);
             // 
+            // Btn_History
+            // 
+            this.Btn_History.Dock = System.Windows.Forms.DockStyle.Top;
+            this.Btn_History.FlatAppearance.BorderSize = 0;
+            this.Btn_History.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Btn_History.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_History.ForeColor = System.Drawing.Color.White;
+            this.Btn_History.Location = new System.Drawing.Point(0, 165);
+            this.Btn_History.Name = "Btn_History";
+            this.Btn_History.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.Btn_History.Size = new System.Drawing.Size(200, 65);
+            this.Btn_History.TabIndex = 1;
+            this.Btn_History.Text = "Reports";
+            this.Btn_History.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Btn_History.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.Btn_History.UseVisualStyleBackColor = true;
+            this.Btn_History.Click += new System.EventHandler(this.Btn_History_Click);
+            // 
+            // Btn_Cart
+            // 
+            this.Btn_Cart.Dock = System.Windows.Forms.DockStyle.Top;
+            this.Btn_Cart.FlatAppearance.BorderSize = 0;
+            this.Btn_Cart.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Btn_Cart.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_Cart.ForeColor = System.Drawing.Color.White;
+            this.Btn_Cart.Location = new System.Drawing.Point(0, 100);
+            this.Btn_Cart.Name = "Btn_Cart";
+            this.Btn_Cart.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.Btn_Cart.Size = new System.Drawing.Size(200, 65);
+            this.Btn_Cart.TabIndex = 0;
+            this.Btn_Cart.Text = "Cart";
+            this.Btn_Cart.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Btn_Cart.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.Btn_Cart.UseVisualStyleBackColor = true;
+            this.Btn_Cart.Click += new System.EventHandler(this.Btn_Cart_Click);
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(58)))));
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel3.Location = new System.Drawing.Point(0, 0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(200, 100);
+            this.panel3.TabIndex = 0;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.DarkOrange;
+            this.panel2.Controls.Add(this.Lbl_Title);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(200, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1084, 100);
+            this.panel2.TabIndex = 1;
+            // 
             // Lbl_Title
             // 
             this.Lbl_Title.AutoSize = true;
@@ -155,6 +147,14 @@ namespace PaintStoreManagerCatMan.Forms
             this.Lbl_Title.TabIndex = 1;
             this.Lbl_Title.Text = "Cashier Control";
             this.Lbl_Title.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // panelDesktop
+            // 
+            this.panelDesktop.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelDesktop.Location = new System.Drawing.Point(200, 100);
+            this.panelDesktop.Name = "panelDesktop";
+            this.panelDesktop.Size = new System.Drawing.Size(1084, 581);
+            this.panelDesktop.TabIndex = 2;
             // 
             // FmMainCashier
             // 
