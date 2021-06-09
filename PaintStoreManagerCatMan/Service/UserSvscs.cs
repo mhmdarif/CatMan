@@ -9,7 +9,7 @@ using System.Data.SqlClient;
 
 namespace PaintStoreManagerCatMan.Service
 {
-    class PaintSvs : i
+    class UserSvscs
     {
     }
 }
