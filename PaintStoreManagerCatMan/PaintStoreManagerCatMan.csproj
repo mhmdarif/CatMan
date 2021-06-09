@@ -223,8 +223,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Service\CategoryServices.cs" />
     <Compile Include="Service\ICategorySvs.cs" />
-    <Compile Include="Service\IpaintSvs.cs" />
+    <Compile Include="Service\IPaintSvs.cs" />
+    <Compile Include="Service\IUserSvs.cs" />
     <Compile Include="Service\PaintSvs.cs" />
+    <Compile Include="Service\UserSvscs.cs" />
     <Compile Include="TblCategoriesDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

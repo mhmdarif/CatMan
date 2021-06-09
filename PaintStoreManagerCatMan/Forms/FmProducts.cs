@@ -16,5 +16,10 @@ namespace PaintStoreManagerCatMan.Forms
         {
             InitializeComponent();
         }
+
+        private void FmProducts_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
