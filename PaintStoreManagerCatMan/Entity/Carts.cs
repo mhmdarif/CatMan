@@ -14,7 +14,7 @@ namespace PaintStoreManagerCatMan.Entity
         public string Brand { get; set; }
         public string Color { get; set; }
         public string Size { get; set; }
-        public double BuyPrice { get; set; }
+        public double SellPrice { get; set; }
 
         // constructor
 
@@ -23,14 +23,14 @@ namespace PaintStoreManagerCatMan.Entity
 
         }
 
-        public Carts(int id, string ctg, string nama, string color, string size, double bp)
+        public Carts(int id, string ctg, string nama, string color, string size, double sp)
         {
             Id = id;
             Category = ctg;
             Brand = nama;
             Color = color;
             Size = size;
-            BuyPrice = bp;
+            SellPrice = sp;
         }
     }
 }

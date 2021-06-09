@@ -52,7 +52,7 @@ namespace PaintStoreManagerCatMan.Forms
                 _Color = dr[2].ToString();
                 _category = dr[3].ToString();
                 _size = dr[4].ToString();
-                _Price = double.Parse(dr[6].ToString());
+                _Price = double.Parse(dr[7].ToString());
             }
             con.Close();
 
@@ -93,10 +93,14 @@ namespace PaintStoreManagerCatMan.Forms
         }
         public void UpdateDgv()
         {
+            DGV_PaintCart.AutoGenerateColumns = false;
             List<Paints> dgv = newPaint.GetAllPaints();
             DGV_PaintCart.DataSource = dgv;
+
+            DGV_Cart.AutoGenerateColumns = false;
             List<Carts> dgvCart = newCart.GetAllCarts();
             DGV_Cart.DataSource = dgvCart;
+            
         }
 
         private void bunifuTextBox2_TextChanged(object sender, EventArgs e)

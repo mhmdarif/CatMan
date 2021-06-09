@@ -31,7 +31,7 @@ namespace PaintStoreManagerCatMan.Service
 
                 newUser.Id = (int)dr["Id"];
                 newUser.Name = dr["Name"].ToString();
-                newUser.Username = dr["UserName"].ToString();
+                newUser.Username = dr["Username"].ToString();
                 newUser.Password = dr["Password"].ToString();
                 newUser.Level = dr["Level"].ToString();
 

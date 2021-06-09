@@ -33,17 +33,17 @@ namespace PaintStoreManagerCatMan.Service
                 newCart.Color = dr["Color"].ToString();
                 newCart.Category = dr["Category"].ToString();
                 newCart.Size = dr["Size"].ToString();
-                newCart.BuyPrice = (double)dr["BuyPrice"];               
+                newCart.SellPrice = (double)dr["SellPrice"];               
 
                 ListCart.Add(newCart);
             }
 
             return ListCart;
         }
-        public void Add(string nama, string color, string ctg, string size, double bp)
+        public void Add(string nama, string color, string ctg, string size, double sp)
         {
             SqlConnection con = new SqlConnection(connstring);
-            string sql = "insert into TblCarts (Category,Brand,Color,Size,BuyPrice) values('" + nama + "','" + color + "','" + ctg + "','" + size + "','" + bp + "')";
+            string sql = "insert into TblCarts (Category,Brand,Color,Size,SellPrice) values('" + nama + "','" + color + "','" + ctg + "','" + size + "','" + sp + "')";
 
             con.Open();
             SqlCommand cmd = new SqlCommand(sql, con);
@@ -54,7 +54,7 @@ namespace PaintStoreManagerCatMan.Service
         public void Delete(int id)
         {
             SqlConnection con = new SqlConnection(connstring);
-            string sql = "delete from TblCart where Id = @Id";
+            string sql = "delete from TblCarts where Id = @Id";
 
             con.Open();
             SqlCommand cmd = new SqlCommand(sql, con);
@@ -67,7 +67,7 @@ namespace PaintStoreManagerCatMan.Service
         public void Update(int id, string nama, string color, string ctg, int qty, double bp)
         {
             SqlConnection con = new SqlConnection(connstring);
-            string sql = "UPDATE TblCarts SET Brand = @Brand , Color = @Color,Category = @Category, Size = @Size, BuyPrice = @BuyPrice where Id = @Id";
+            string sql = "UPDATE TblCarts SET Brand = @Brand , Color = @Color,Category = @Category, Size = @Size, SellPrice = @SellPrice where Id = @Id";
 
             con.Open();
 
@@ -77,10 +77,29 @@ namespace PaintStoreManagerCatMan.Service
             cmd.Parameters.AddWithValue("@Category", ctg);
             cmd.Parameters.AddWithValue("@Color", color);
             cmd.Parameters.AddWithValue("@Quantity", qty);
-            cmd.Parameters.AddWithValue("@BuyPrice", bp);
+            cmd.Parameters.AddWithValue("@SellPrice", bp);
             cmd.ExecuteNonQuery();
 
             con.Close();
         }
+       /* public double GetCartTotalCost()
+        {
+            *//*S*//*qlConnection con = new SqlConnection(connstring);
+            double totalCost = 0;
+            List<CartSvs> lsCart = new List<CartSvs>();
+            //sqlcon
+            string sql = "select BuyPrice from TblCarts";
+            con.Open();
+
+            SqlCommand cmd = new SqlCommand(sql, con);
+            SqlDataReader dr = cmd.ExecuteReader();
+            while (dr.Read())
+            {
+                totalCost = totalCost + (double)dr["Price"];
+            }
+            con.Close();
+
+            return totalCost;*//*
+        }*/
     }
 }
