@@ -148,6 +148,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Forms\FmCart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FmCart.Designer.cs">
+      <DependentUpon>FmCart.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\FmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -174,6 +180,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\FmCart.resx">
+      <DependentUpon>FmCart.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\FmLogin.resx">
       <DependentUpon>FmLogin.cs</DependentUpon>
     </EmbeddedResource>
