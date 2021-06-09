@@ -148,11 +148,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entity\Category.cs" />
+    <Compile Include="Entity\Paints.cs" />
+    <Compile Include="Entity\User.cs" />
     <Compile Include="Forms\FmCart.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\FmCart.Designer.cs">
       <DependentUpon>FmCart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FmCategories.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FmCategories.Designer.cs">
+      <DependentUpon>FmCategories.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\FmLogin.cs">
       <SubType>Form</SubType>
@@ -178,10 +187,27 @@
     <Compile Include="Forms\FmProducts.Designer.cs">
       <DependentUpon>FmProducts.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\FmReports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FmReports.Designer.cs">
+      <DependentUpon>FmReports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FmUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FmUsers.Designer.cs">
+      <DependentUpon>FmUsers.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service\CategoryServices.cs" />
+    <Compile Include="Service\IpaintSvs.cs" />
     <EmbeddedResource Include="Forms\FmCart.resx">
       <DependentUpon>FmCart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FmCategories.resx">
+      <DependentUpon>FmCategories.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FmLogin.resx">
       <DependentUpon>FmLogin.cs</DependentUpon>
@@ -194,6 +220,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FmProducts.resx">
       <DependentUpon>FmProducts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FmReports.resx">
+      <DependentUpon>FmReports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FmUsers.resx">
+      <DependentUpon>FmUsers.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -221,8 +253,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Database\" />
-    <Folder Include="Entity\" />
-    <Folder Include="Service\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -41,22 +41,22 @@ namespace PaintStoreManagerCatMan.Forms
 
         private void Btn_Categories_Click(object sender, EventArgs e)
         {
-
+            OpenChildForm(new Forms.FmCategories(), sender);
         }
 
-        private void Btn_Cashiers_Click(object sender, EventArgs e)
+        private void Btn_Users_Click(object sender, EventArgs e)
         {
-
+            OpenChildForm(new Forms.FmUsers(), sender);
         }
 
         private void Btn_Cart_Click(object sender, EventArgs e)
         {
-
+            OpenChildForm(new Forms.FmCart(), sender);
         }
 
-        private void Btn_History_Click(object sender, EventArgs e)
+        private void Btn_Reports_Click(object sender, EventArgs e)
         {
-
+            OpenChildForm(new Forms.FmReports(), sender);
         }
 
         private void Btn_Logout_Click(object sender, EventArgs e)
@@ -68,5 +68,7 @@ namespace PaintStoreManagerCatMan.Forms
                 this.Hide();
             }
         }
+
+
     }
 }

@@ -36,10 +36,10 @@ namespace PaintStoreManagerCatMan.Forms
             this.panel4 = new System.Windows.Forms.Panel();
             this.Btn_Products = new System.Windows.Forms.Button();
             this.Btn_Categories = new System.Windows.Forms.Button();
-            this.Btn_Cashiers = new System.Windows.Forms.Button();
+            this.Btn_Users = new System.Windows.Forms.Button();
             this.Lbl_Title = new System.Windows.Forms.Label();
             this.Btn_Cart = new System.Windows.Forms.Button();
-            this.Btn_History = new System.Windows.Forms.Button();
+            this.Btn_Reports = new System.Windows.Forms.Button();
             this.Btn_Logout = new Bunifu.Framework.UI.BunifuThinButton2();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -49,16 +49,16 @@ namespace PaintStoreManagerCatMan.Forms
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(75)))));
             this.panel1.Controls.Add(this.Btn_Logout);
-            this.panel1.Controls.Add(this.Btn_History);
+            this.panel1.Controls.Add(this.Btn_Reports);
             this.panel1.Controls.Add(this.Btn_Cart);
-            this.panel1.Controls.Add(this.Btn_Cashiers);
+            this.panel1.Controls.Add(this.Btn_Users);
             this.panel1.Controls.Add(this.Btn_Categories);
             this.panel1.Controls.Add(this.Btn_Products);
             this.panel1.Controls.Add(this.panel4);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(200, 661);
+            this.panel1.Size = new System.Drawing.Size(200, 681);
             this.panel1.TabIndex = 0;
             // 
             // panel2
@@ -68,7 +68,7 @@ namespace PaintStoreManagerCatMan.Forms
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(200, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(984, 100);
+            this.panel2.Size = new System.Drawing.Size(1084, 100);
             this.panel2.TabIndex = 1;
             // 
             // panelDesktop
@@ -76,7 +76,7 @@ namespace PaintStoreManagerCatMan.Forms
             this.panelDesktop.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelDesktop.Location = new System.Drawing.Point(200, 100);
             this.panelDesktop.Name = "panelDesktop";
-            this.panelDesktop.Size = new System.Drawing.Size(984, 561);
+            this.panelDesktop.Size = new System.Drawing.Size(1084, 581);
             this.panelDesktop.TabIndex = 2;
             // 
             // panel4
@@ -123,33 +123,34 @@ namespace PaintStoreManagerCatMan.Forms
             this.Btn_Categories.UseVisualStyleBackColor = true;
             this.Btn_Categories.Click += new System.EventHandler(this.Btn_Categories_Click);
             // 
-            // Btn_Cashiers
+            // Btn_Users
             // 
-            this.Btn_Cashiers.Dock = System.Windows.Forms.DockStyle.Top;
-            this.Btn_Cashiers.FlatAppearance.BorderSize = 0;
-            this.Btn_Cashiers.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Btn_Cashiers.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn_Cashiers.ForeColor = System.Drawing.Color.White;
-            this.Btn_Cashiers.Location = new System.Drawing.Point(0, 242);
-            this.Btn_Cashiers.Name = "Btn_Cashiers";
-            this.Btn_Cashiers.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.Btn_Cashiers.Size = new System.Drawing.Size(200, 71);
-            this.Btn_Cashiers.TabIndex = 3;
-            this.Btn_Cashiers.Text = "Cashiers";
-            this.Btn_Cashiers.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Btn_Cashiers.UseVisualStyleBackColor = true;
-            this.Btn_Cashiers.Click += new System.EventHandler(this.Btn_Cashiers_Click);
+            this.Btn_Users.Dock = System.Windows.Forms.DockStyle.Top;
+            this.Btn_Users.FlatAppearance.BorderSize = 0;
+            this.Btn_Users.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Btn_Users.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_Users.ForeColor = System.Drawing.Color.White;
+            this.Btn_Users.Location = new System.Drawing.Point(0, 242);
+            this.Btn_Users.Name = "Btn_Users";
+            this.Btn_Users.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.Btn_Users.Size = new System.Drawing.Size(200, 71);
+            this.Btn_Users.TabIndex = 3;
+            this.Btn_Users.Text = "Users";
+            this.Btn_Users.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Btn_Users.UseVisualStyleBackColor = true;
+            this.Btn_Users.Click += new System.EventHandler(this.Btn_Users_Click);
             // 
             // Lbl_Title
             // 
             this.Lbl_Title.AutoSize = true;
             this.Lbl_Title.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lbl_Title.ForeColor = System.Drawing.Color.White;
-            this.Lbl_Title.Location = new System.Drawing.Point(435, 38);
+            this.Lbl_Title.Location = new System.Drawing.Point(458, 41);
             this.Lbl_Title.Name = "Lbl_Title";
             this.Lbl_Title.Size = new System.Drawing.Size(143, 23);
             this.Lbl_Title.TabIndex = 0;
             this.Lbl_Title.Text = "Admin Control";
+            this.Lbl_Title.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Btn_Cart
             // 
@@ -168,22 +169,22 @@ namespace PaintStoreManagerCatMan.Forms
             this.Btn_Cart.UseVisualStyleBackColor = true;
             this.Btn_Cart.Click += new System.EventHandler(this.Btn_Cart_Click);
             // 
-            // Btn_History
+            // Btn_Reports
             // 
-            this.Btn_History.Dock = System.Windows.Forms.DockStyle.Top;
-            this.Btn_History.FlatAppearance.BorderSize = 0;
-            this.Btn_History.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Btn_History.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn_History.ForeColor = System.Drawing.Color.White;
-            this.Btn_History.Location = new System.Drawing.Point(0, 384);
-            this.Btn_History.Name = "Btn_History";
-            this.Btn_History.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.Btn_History.Size = new System.Drawing.Size(200, 71);
-            this.Btn_History.TabIndex = 5;
-            this.Btn_History.Text = "History";
-            this.Btn_History.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Btn_History.UseVisualStyleBackColor = true;
-            this.Btn_History.Click += new System.EventHandler(this.Btn_History_Click);
+            this.Btn_Reports.Dock = System.Windows.Forms.DockStyle.Top;
+            this.Btn_Reports.FlatAppearance.BorderSize = 0;
+            this.Btn_Reports.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Btn_Reports.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_Reports.ForeColor = System.Drawing.Color.White;
+            this.Btn_Reports.Location = new System.Drawing.Point(0, 384);
+            this.Btn_Reports.Name = "Btn_Reports";
+            this.Btn_Reports.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.Btn_Reports.Size = new System.Drawing.Size(200, 71);
+            this.Btn_Reports.TabIndex = 5;
+            this.Btn_Reports.Text = "Reports";
+            this.Btn_Reports.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Btn_Reports.UseVisualStyleBackColor = true;
+            this.Btn_Reports.Click += new System.EventHandler(this.Btn_Reports_Click);
             // 
             // Btn_Logout
             // 
@@ -203,10 +204,10 @@ namespace PaintStoreManagerCatMan.Forms
             this.Btn_Logout.IdleFillColor = System.Drawing.Color.Red;
             this.Btn_Logout.IdleForecolor = System.Drawing.Color.White;
             this.Btn_Logout.IdleLineColor = System.Drawing.Color.Red;
-            this.Btn_Logout.Location = new System.Drawing.Point(11, 602);
+            this.Btn_Logout.Location = new System.Drawing.Point(5, 622);
             this.Btn_Logout.Margin = new System.Windows.Forms.Padding(5);
             this.Btn_Logout.Name = "Btn_Logout";
-            this.Btn_Logout.Size = new System.Drawing.Size(181, 45);
+            this.Btn_Logout.Size = new System.Drawing.Size(187, 45);
             this.Btn_Logout.TabIndex = 6;
             this.Btn_Logout.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.Btn_Logout.Click += new System.EventHandler(this.Btn_Logout_Click);
@@ -215,13 +216,14 @@ namespace PaintStoreManagerCatMan.Forms
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1184, 661);
+            this.ClientSize = new System.Drawing.Size(1284, 681);
             this.Controls.Add(this.panelDesktop);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "FmMainAdmin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FmMainAdmin";
+            this.Text = "Main Page Admin";
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
@@ -237,10 +239,10 @@ namespace PaintStoreManagerCatMan.Forms
         private System.Windows.Forms.Panel panelDesktop;
         private System.Windows.Forms.Button Btn_Products;
         private System.Windows.Forms.Button Btn_Categories;
-        private System.Windows.Forms.Button Btn_Cashiers;
+        private System.Windows.Forms.Button Btn_Users;
         private System.Windows.Forms.Label Lbl_Title;
         private Bunifu.Framework.UI.BunifuThinButton2 Btn_Logout;
-        private System.Windows.Forms.Button Btn_History;
+        private System.Windows.Forms.Button Btn_Reports;
         private System.Windows.Forms.Button Btn_Cart;
     }
 }

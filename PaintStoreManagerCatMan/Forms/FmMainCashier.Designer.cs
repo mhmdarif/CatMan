@@ -52,7 +52,7 @@ namespace PaintStoreManagerCatMan.Forms
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(200, 661);
+            this.panel1.Size = new System.Drawing.Size(200, 681);
             this.panel1.TabIndex = 0;
             // 
             // panel2
@@ -62,7 +62,7 @@ namespace PaintStoreManagerCatMan.Forms
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(200, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(984, 100);
+            this.panel2.Size = new System.Drawing.Size(1084, 100);
             this.panel2.TabIndex = 1;
             // 
             // panel3
@@ -79,7 +79,7 @@ namespace PaintStoreManagerCatMan.Forms
             this.panelDesktop.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelDesktop.Location = new System.Drawing.Point(200, 100);
             this.panelDesktop.Name = "panelDesktop";
-            this.panelDesktop.Size = new System.Drawing.Size(984, 561);
+            this.panelDesktop.Size = new System.Drawing.Size(1084, 581);
             this.panelDesktop.TabIndex = 2;
             // 
             // Btn_Cart
@@ -136,10 +136,10 @@ namespace PaintStoreManagerCatMan.Forms
             this.Btn_Logout.IdleFillColor = System.Drawing.Color.Red;
             this.Btn_Logout.IdleForecolor = System.Drawing.Color.White;
             this.Btn_Logout.IdleLineColor = System.Drawing.Color.Red;
-            this.Btn_Logout.Location = new System.Drawing.Point(11, 602);
+            this.Btn_Logout.Location = new System.Drawing.Point(5, 622);
             this.Btn_Logout.Margin = new System.Windows.Forms.Padding(5);
             this.Btn_Logout.Name = "Btn_Logout";
-            this.Btn_Logout.Size = new System.Drawing.Size(181, 45);
+            this.Btn_Logout.Size = new System.Drawing.Size(187, 45);
             this.Btn_Logout.TabIndex = 7;
             this.Btn_Logout.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.Btn_Logout.Click += new System.EventHandler(this.Btn_Logout_Click);
@@ -149,23 +149,24 @@ namespace PaintStoreManagerCatMan.Forms
             this.Lbl_Title.AutoSize = true;
             this.Lbl_Title.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lbl_Title.ForeColor = System.Drawing.Color.White;
-            this.Lbl_Title.Location = new System.Drawing.Point(452, 36);
+            this.Lbl_Title.Location = new System.Drawing.Point(465, 38);
             this.Lbl_Title.Name = "Lbl_Title";
             this.Lbl_Title.Size = new System.Drawing.Size(152, 23);
             this.Lbl_Title.TabIndex = 1;
             this.Lbl_Title.Text = "Cashier Control";
+            this.Lbl_Title.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // FmMainCashier
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1184, 661);
+            this.ClientSize = new System.Drawing.Size(1284, 681);
             this.Controls.Add(this.panelDesktop);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "FmMainCashier";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FmMainCashier";
+            this.Text = "Main Page Cashier";
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();

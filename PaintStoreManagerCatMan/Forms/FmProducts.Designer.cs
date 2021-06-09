@@ -35,9 +35,9 @@ namespace PaintStoreManagerCatMan.Forms
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(968, 522);
+            this.ClientSize = new System.Drawing.Size(1068, 542);
             this.Name = "FmProducts";
-            this.Text = "FmProducts";
+            this.Text = "Products Management";
             this.ResumeLayout(false);
 
         }

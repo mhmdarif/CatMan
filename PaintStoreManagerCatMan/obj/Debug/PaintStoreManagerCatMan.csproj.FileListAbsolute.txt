@@ -78,3 +78,7 @@ G:\@CatMan\CatMan\PaintStoreManagerCatMan\obj\Debug\PaintStoreManagerCatMan.exe.
 G:\@CatMan\CatMan\PaintStoreManagerCatMan\obj\Debug\PaintStoreManagerCatMan.Forms.FmMainAdmin.resources
 G:\@CatMan\CatMan\PaintStoreManagerCatMan\obj\Debug\PaintStoreManagerCatMan.Forms.FmMainCashier.resources
 G:\@CatMan\CatMan\PaintStoreManagerCatMan\obj\Debug\PaintStoreManagerCatMan.Forms.FmProducts.resources
+G:\@CatMan\CatMan\PaintStoreManagerCatMan\obj\Debug\PaintStoreManagerCatMan.Forms.FmCart.resources
+G:\@CatMan\CatMan\PaintStoreManagerCatMan\obj\Debug\PaintStoreManagerCatMan.Forms.FmCategories.resources
+G:\@CatMan\CatMan\PaintStoreManagerCatMan\obj\Debug\PaintStoreManagerCatMan.Forms.FmReports.resources
+G:\@CatMan\CatMan\PaintStoreManagerCatMan\obj\Debug\PaintStoreManagerCatMan.Forms.FmUsers.resources
