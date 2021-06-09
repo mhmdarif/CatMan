@@ -30,14 +30,14 @@ namespace PaintStoreManagerCatMan.Forms
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FmLogin));
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties17 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties18 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties19 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties20 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties21 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties22 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties23 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties24 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties25 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties26 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties27 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties28 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties29 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties30 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties31 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties32 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.TB_Username = new Bunifu.UI.WinForms.BunifuTextBox();
@@ -45,8 +45,8 @@ namespace PaintStoreManagerCatMan.Forms
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.Btn_Login = new Bunifu.Framework.UI.BunifuThinButton2();
             this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.Lbl_Clear = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.CB_Role = new System.Windows.Forms.ComboBox();
+            this.bunifuThinButton21 = new Bunifu.Framework.UI.BunifuThinButton2();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -94,6 +94,7 @@ namespace PaintStoreManagerCatMan.Forms
             this.TB_Username.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
             this.TB_Username.DefaultText = "";
             this.TB_Username.FillColor = System.Drawing.Color.White;
+            this.TB_Username.ForeColor = System.Drawing.Color.DarkOrange;
             this.TB_Username.HideSelection = true;
             this.TB_Username.IconLeft = null;
             this.TB_Username.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
@@ -107,26 +108,26 @@ namespace PaintStoreManagerCatMan.Forms
             this.TB_Username.Modified = false;
             this.TB_Username.Multiline = false;
             this.TB_Username.Name = "TB_Username";
-            stateProperties17.BorderColor = System.Drawing.Color.DodgerBlue;
-            stateProperties17.FillColor = System.Drawing.Color.Empty;
-            stateProperties17.ForeColor = System.Drawing.Color.Empty;
-            stateProperties17.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.TB_Username.OnActiveState = stateProperties17;
-            stateProperties18.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            stateProperties18.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            stateProperties18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            stateProperties18.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.TB_Username.OnDisabledState = stateProperties18;
-            stateProperties19.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties19.FillColor = System.Drawing.Color.Empty;
-            stateProperties19.ForeColor = System.Drawing.Color.Empty;
-            stateProperties19.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.TB_Username.OnHoverState = stateProperties19;
-            stateProperties20.BorderColor = System.Drawing.Color.Silver;
-            stateProperties20.FillColor = System.Drawing.Color.White;
-            stateProperties20.ForeColor = System.Drawing.Color.Empty;
-            stateProperties20.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.TB_Username.OnIdleState = stateProperties20;
+            stateProperties25.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties25.FillColor = System.Drawing.Color.Empty;
+            stateProperties25.ForeColor = System.Drawing.Color.Empty;
+            stateProperties25.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.TB_Username.OnActiveState = stateProperties25;
+            stateProperties26.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties26.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties26.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties26.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.TB_Username.OnDisabledState = stateProperties26;
+            stateProperties27.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties27.FillColor = System.Drawing.Color.Empty;
+            stateProperties27.ForeColor = System.Drawing.Color.Empty;
+            stateProperties27.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.TB_Username.OnHoverState = stateProperties27;
+            stateProperties28.BorderColor = System.Drawing.Color.Silver;
+            stateProperties28.FillColor = System.Drawing.Color.White;
+            stateProperties28.ForeColor = System.Drawing.Color.DarkOrange;
+            stateProperties28.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.TB_Username.OnIdleState = stateProperties28;
             this.TB_Username.Padding = new System.Windows.Forms.Padding(3);
             this.TB_Username.PasswordChar = '\0';
             this.TB_Username.PlaceholderForeColor = System.Drawing.Color.Silver;
@@ -168,6 +169,7 @@ namespace PaintStoreManagerCatMan.Forms
             this.TB_Password.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
             this.TB_Password.DefaultText = "";
             this.TB_Password.FillColor = System.Drawing.Color.White;
+            this.TB_Password.ForeColor = System.Drawing.Color.DarkOrange;
             this.TB_Password.HideSelection = true;
             this.TB_Password.IconLeft = null;
             this.TB_Password.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
@@ -181,26 +183,26 @@ namespace PaintStoreManagerCatMan.Forms
             this.TB_Password.Modified = false;
             this.TB_Password.Multiline = false;
             this.TB_Password.Name = "TB_Password";
-            stateProperties21.BorderColor = System.Drawing.Color.DodgerBlue;
-            stateProperties21.FillColor = System.Drawing.Color.Empty;
-            stateProperties21.ForeColor = System.Drawing.Color.Empty;
-            stateProperties21.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.TB_Password.OnActiveState = stateProperties21;
-            stateProperties22.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            stateProperties22.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            stateProperties22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            stateProperties22.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.TB_Password.OnDisabledState = stateProperties22;
-            stateProperties23.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties23.FillColor = System.Drawing.Color.Empty;
-            stateProperties23.ForeColor = System.Drawing.Color.Empty;
-            stateProperties23.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.TB_Password.OnHoverState = stateProperties23;
-            stateProperties24.BorderColor = System.Drawing.Color.Silver;
-            stateProperties24.FillColor = System.Drawing.Color.White;
-            stateProperties24.ForeColor = System.Drawing.Color.Empty;
-            stateProperties24.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.TB_Password.OnIdleState = stateProperties24;
+            stateProperties29.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties29.FillColor = System.Drawing.Color.Empty;
+            stateProperties29.ForeColor = System.Drawing.Color.Empty;
+            stateProperties29.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.TB_Password.OnActiveState = stateProperties29;
+            stateProperties30.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties30.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties30.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties30.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.TB_Password.OnDisabledState = stateProperties30;
+            stateProperties31.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties31.FillColor = System.Drawing.Color.Empty;
+            stateProperties31.ForeColor = System.Drawing.Color.Empty;
+            stateProperties31.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.TB_Password.OnHoverState = stateProperties31;
+            stateProperties32.BorderColor = System.Drawing.Color.Silver;
+            stateProperties32.FillColor = System.Drawing.Color.White;
+            stateProperties32.ForeColor = System.Drawing.Color.DarkOrange;
+            stateProperties32.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.TB_Password.OnIdleState = stateProperties32;
             this.TB_Password.Padding = new System.Windows.Forms.Padding(3);
             this.TB_Password.PasswordChar = '\0';
             this.TB_Password.PlaceholderForeColor = System.Drawing.Color.Silver;
@@ -252,10 +254,10 @@ namespace PaintStoreManagerCatMan.Forms
             this.Btn_Login.IdleForecolor = System.Drawing.Color.White;
             this.Btn_Login.IdleLineColor = System.Drawing.Color.White;
             this.Btn_Login.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Btn_Login.Location = new System.Drawing.Point(297, 249);
+            this.Btn_Login.Location = new System.Drawing.Point(286, 244);
             this.Btn_Login.Margin = new System.Windows.Forms.Padding(5);
             this.Btn_Login.Name = "Btn_Login";
-            this.Btn_Login.Size = new System.Drawing.Size(230, 58);
+            this.Btn_Login.Size = new System.Drawing.Size(253, 58);
             this.Btn_Login.TabIndex = 6;
             this.Btn_Login.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.Btn_Login.Click += new System.EventHandler(this.Btn_Login_Click);
@@ -265,23 +267,11 @@ namespace PaintStoreManagerCatMan.Forms
             this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel3.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel3.ForeColor = System.Drawing.Color.DarkOrange;
-            this.guna2HtmlLabel3.Location = new System.Drawing.Point(346, 32);
+            this.guna2HtmlLabel3.Location = new System.Drawing.Point(346, 33);
             this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
             this.guna2HtmlLabel3.Size = new System.Drawing.Size(70, 27);
             this.guna2HtmlLabel3.TabIndex = 7;
             this.guna2HtmlLabel3.Text = "LOGIN";
-            // 
-            // Lbl_Clear
-            // 
-            this.Lbl_Clear.BackColor = System.Drawing.Color.Transparent;
-            this.Lbl_Clear.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_Clear.ForeColor = System.Drawing.Color.DarkOrange;
-            this.Lbl_Clear.Location = new System.Drawing.Point(387, 315);
-            this.Lbl_Clear.Name = "Lbl_Clear";
-            this.Lbl_Clear.Size = new System.Drawing.Size(45, 23);
-            this.Lbl_Clear.TabIndex = 8;
-            this.Lbl_Clear.Text = "Clear";
-            this.Lbl_Clear.Click += new System.EventHandler(this.Lbl_Clear_Click);
             // 
             // CB_Role
             // 
@@ -295,15 +285,41 @@ namespace PaintStoreManagerCatMan.Forms
             this.CB_Role.Name = "CB_Role";
             this.CB_Role.Size = new System.Drawing.Size(211, 25);
             this.CB_Role.TabIndex = 9;
-            this.CB_Role.Text = "Select Role";
+            this.CB_Role.Text = "Select a Role";
+            // 
+            // bunifuThinButton21
+            // 
+            this.bunifuThinButton21.ActiveBorderThickness = 1;
+            this.bunifuThinButton21.ActiveCornerRadius = 20;
+            this.bunifuThinButton21.ActiveFillColor = System.Drawing.Color.Red;
+            this.bunifuThinButton21.ActiveForecolor = System.Drawing.Color.White;
+            this.bunifuThinButton21.ActiveLineColor = System.Drawing.SystemColors.Control;
+            this.bunifuThinButton21.BackColor = System.Drawing.SystemColors.Control;
+            this.bunifuThinButton21.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton21.BackgroundImage")));
+            this.bunifuThinButton21.ButtonText = "Clear";
+            this.bunifuThinButton21.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuThinButton21.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuThinButton21.ForeColor = System.Drawing.Color.SeaGreen;
+            this.bunifuThinButton21.IdleBorderThickness = 1;
+            this.bunifuThinButton21.IdleCornerRadius = 20;
+            this.bunifuThinButton21.IdleFillColor = System.Drawing.SystemColors.Control;
+            this.bunifuThinButton21.IdleForecolor = System.Drawing.Color.DarkOrange;
+            this.bunifuThinButton21.IdleLineColor = System.Drawing.SystemColors.Control;
+            this.bunifuThinButton21.Location = new System.Drawing.Point(367, 299);
+            this.bunifuThinButton21.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuThinButton21.Name = "bunifuThinButton21";
+            this.bunifuThinButton21.Size = new System.Drawing.Size(91, 40);
+            this.bunifuThinButton21.TabIndex = 10;
+            this.bunifuThinButton21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.bunifuThinButton21.Click += new System.EventHandler(this.bunifuThinButton21_Click);
             // 
             // FmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(584, 361);
+            this.Controls.Add(this.bunifuThinButton21);
             this.Controls.Add(this.CB_Role);
-            this.Controls.Add(this.Lbl_Clear);
             this.Controls.Add(this.guna2HtmlLabel3);
             this.Controls.Add(this.Btn_Login);
             this.Controls.Add(this.TB_Password);
@@ -330,7 +346,7 @@ namespace PaintStoreManagerCatMan.Forms
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
         private Bunifu.Framework.UI.BunifuThinButton2 Btn_Login;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
-        private Guna.UI2.WinForms.Guna2HtmlLabel Lbl_Clear;
         private System.Windows.Forms.ComboBox CB_Role;
+        private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton21;
     }
 }

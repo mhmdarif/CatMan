@@ -1,7 +1,7 @@
 ﻿
 namespace PaintStoreManagerCatMan.Forms
 {
-    partial class FmAdminControl
+    partial class FmProducts
     {
         /// <summary>
         /// Required designer variable.
@@ -29,10 +29,17 @@ namespace PaintStoreManagerCatMan.Forms
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // FmProducts
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "FmAdminControl";
+            this.ClientSize = new System.Drawing.Size(968, 522);
+            this.Name = "FmProducts";
+            this.Text = "FmProducts";
+            this.ResumeLayout(false);
+
         }
 
         #endregion

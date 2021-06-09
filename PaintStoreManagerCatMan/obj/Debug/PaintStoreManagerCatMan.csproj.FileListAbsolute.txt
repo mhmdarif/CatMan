@@ -75,4 +75,6 @@ G:\@CatMan\CatMan\PaintStoreManagerCatMan\bin\Debug\Bunifu.UI.WinForms.BunifuTra
 G:\@CatMan\CatMan\PaintStoreManagerCatMan\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.xml
 G:\@CatMan\CatMan\PaintStoreManagerCatMan\obj\Debug\PaintStoreManagerCatMan.csproj.CopyComplete
 G:\@CatMan\CatMan\PaintStoreManagerCatMan\obj\Debug\PaintStoreManagerCatMan.exe.licenses
-G:\@CatMan\CatMan\PaintStoreManagerCatMan\obj\Debug\PaintStoreManagerCatMan.Forms.FmMainPage.resources
+G:\@CatMan\CatMan\PaintStoreManagerCatMan\obj\Debug\PaintStoreManagerCatMan.Forms.FmMainAdmin.resources
+G:\@CatMan\CatMan\PaintStoreManagerCatMan\obj\Debug\PaintStoreManagerCatMan.Forms.FmMainCashier.resources
+G:\@CatMan\CatMan\PaintStoreManagerCatMan\obj\Debug\PaintStoreManagerCatMan.Forms.FmProducts.resources

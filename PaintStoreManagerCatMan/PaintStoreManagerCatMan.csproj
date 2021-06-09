@@ -148,22 +148,43 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Forms\FmAdminControl.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\FmAdminControl.Designer.cs">
-      <DependentUpon>FmAdminControl.cs</DependentUpon>
-    </Compile>
     <Compile Include="Forms\FmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\FmLogin.Designer.cs">
       <DependentUpon>FmLogin.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\FmMainAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FmMainAdmin.Designer.cs">
+      <DependentUpon>FmMainAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FmMainCashier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FmMainCashier.Designer.cs">
+      <DependentUpon>FmMainCashier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FmProducts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FmProducts.Designer.cs">
+      <DependentUpon>FmProducts.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Forms\FmLogin.resx">
       <DependentUpon>FmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FmMainAdmin.resx">
+      <DependentUpon>FmMainAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FmMainCashier.resx">
+      <DependentUpon>FmMainCashier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FmProducts.resx">
+      <DependentUpon>FmProducts.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">

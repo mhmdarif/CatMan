@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PaintStoreManagerCatMan.Forms
 {
-    public partial class FmAdminControl : Form
+    public partial class FmProducts : Form
     {
-        public FmAdminControl()
+        public FmProducts()
         {
             InitializeComponent();
         }
