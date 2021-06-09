@@ -18,6 +18,10 @@ namespace PaintStoreManagerCatMan.Forms
         readonly string connstring = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Database\PaintStoreDB.mdf;Integrated Security=True;Connect Timeout=30";
         readonly private PaintSvs newPaint = new PaintSvs();
         readonly private CartSvs newCart = new CartSvs();
+        readonly private ReportsSvs newReport = new ReportsSvs();
+
+        double totalTrans = 0;
+        double BuyerMoney;
 
         public FmCart()
         {
@@ -26,13 +30,44 @@ namespace PaintStoreManagerCatMan.Forms
 
         private void Btn_Pay_Click(object sender, EventArgs e)
         {
+            double buyerMoney = double.Parse(Tb_CustomerCash.Text);
+            double totalCost = double.Parse(Lbl_Total.Text);
+            double change = buyerMoney - totalCost;
 
+            if (BuyerMoney < 0)
+            {
+                MessageBox.Show("input incorrect, please try again");
+            }
+            else
+            {
+                if (buyerMoney < totalCost)
+                {
+                    MessageBox.Show("Not Enough Money !, please try again");
+                }
+                else
+                {
+                    string date = DateTime.Now.ToString();
+                    newReport.Add(TB_CustomerName.Text, "CASHIER", buyerMoney,totalCost, change, date);
+                    MessageBox.Show("Transaction Success");
+                }
+
+            }
+/*
+            try
+            {
+                
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("incorrect input");
+            }*/
         }
 
         private void Btn_AddCart_Click(object sender, EventArgs e)
         {
             
             int id = int.Parse(DGV_PaintCart.CurrentRow.Cells[0].Value.ToString());
+
             string _Brand = "";
             string _Color = "";
             string _category = "";
@@ -55,9 +90,11 @@ namespace PaintStoreManagerCatMan.Forms
                 _Price = double.Parse(dr[7].ToString());
             }
             con.Close();
-
+            
             newCart.Add(_Brand, _Color,_category, _size, _Price);
 
+            double total = double.Parse(DGV_PaintCart.CurrentRow.Cells[6].Value.ToString());
+            totalTrans = totalTrans + total;
             UpdateDgv();
         }
 
@@ -92,7 +129,8 @@ namespace PaintStoreManagerCatMan.Forms
             Tb_CustomerCash.Clear();
         }
         public void UpdateDgv()
-        {
+        { 
+
             DGV_PaintCart.AutoGenerateColumns = false;
             List<Paints> dgv = newPaint.GetAllPaints();
             DGV_PaintCart.DataSource = dgv;
@@ -100,7 +138,9 @@ namespace PaintStoreManagerCatMan.Forms
             DGV_Cart.AutoGenerateColumns = false;
             List<Carts> dgvCart = newCart.GetAllCarts();
             DGV_Cart.DataSource = dgvCart;
-            
+
+            Lbl_Total.Text = totalTrans.ToString();
+
         }
 
         private void bunifuTextBox2_TextChanged(object sender, EventArgs e)
@@ -153,12 +193,70 @@ namespace PaintStoreManagerCatMan.Forms
         }
 
         private void Btn_DeleteCart_Click(object sender, EventArgs e)
-        {
+        { 
             int id = int.Parse(DGV_Cart.CurrentRow.Cells[0].Value.ToString());
 
             newCart.Delete(id);
 
+            double total = double.Parse(DGV_Cart.CurrentRow.Cells[5].Value.ToString());
+            totalTrans = totalTrans - total;
             UpdateDgv();
+        }
+
+        private void Btn_refresh_Click(object sender, EventArgs e)
+        {
+            UpdateDgv();
+        }
+
+        private void TB_SearchByBrand_TextChange(object sender, EventArgs e)
+        {
+            if (TB_SearchByBrand.Text == "")
+            {
+                UpdateDgv();
+            }
+            else
+            {
+                SqlConnection con = new SqlConnection(connstring);
+                string sqlQuery = "SELECT * FROM TblPaints where Brand = '" + TB_SearchByBrand.Text + "' ";
+
+                con.Open();
+                SqlCommand cmd = new SqlCommand(sqlQuery, con);
+                SqlDataAdapter sda = new SqlDataAdapter(cmd);
+                DataTable dt = new DataTable();
+
+                sda.Fill(dt);
+                DGV_PaintCart.DataSource = dt;
+                con.Close();
+            }
+           
+        }
+
+        private void TB_SearchByColor_TextChange(object sender, EventArgs e)
+        {
+            if (TB_SearchByColor.Text == "")
+            {
+                UpdateDgv();
+            }
+            else
+            {
+                SqlConnection con = new SqlConnection(connstring);
+                string sqlQuery = "SELECT * FROM TblPaints where Color = '" + TB_SearchByColor.Text + "' ";
+
+                con.Open();
+                SqlCommand cmd = new SqlCommand(sqlQuery, con);
+                SqlDataAdapter sda = new SqlDataAdapter(cmd);
+                DataTable dt = new DataTable();
+
+                sda.Fill(dt);
+                DGV_PaintCart.DataSource = dt;
+                con.Close();
+            }
+            
+        }
+
+        private void Tb_CustomerCash_TextChange(object sender, EventArgs e)
+        {
+            
         }
     }
 }

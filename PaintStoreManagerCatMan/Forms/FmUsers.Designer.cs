@@ -31,26 +31,26 @@ namespace PaintStoreManagerCatMan.Forms
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FmUsers));
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties1 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties2 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties3 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties4 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties5 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties6 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties7 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties8 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties9 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties10 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties11 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties12 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties13 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties14 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties15 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties16 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges2 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties17 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties18 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties19 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties20 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties21 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties22 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties23 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties24 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties25 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties26 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties27 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties28 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties29 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties30 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties31 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties32 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             this.tblCategoriesTableAdapter1 = new PaintStoreManagerCatMan.TblCategoriesDataSetTableAdapters.TblCategoriesTableAdapter();
             this.tblCategoriesDataSet = new PaintStoreManagerCatMan.TblCategoriesDataSet();
             this.tblCategoriesTableAdapter = new PaintStoreManagerCatMan.PaintStoreDBDataSetTableAdapters.TblCategoriesTableAdapter();
@@ -58,7 +58,7 @@ namespace PaintStoreManagerCatMan.Forms
             this.paintStoreDBDataSet = new PaintStoreManagerCatMan.PaintStoreDBDataSet();
             this.tblCategoriesBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.Btn_Clear = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
-            this.TB_SearchCate = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.TB_SearchUser = new Bunifu.UI.WinForms.BunifuTextBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.DGV_Users = new Bunifu.UI.WinForms.BunifuDataGridView();
             this.Btn_Delete = new Bunifu.Framework.UI.BunifuThinButton2();
@@ -132,11 +132,11 @@ namespace PaintStoreManagerCatMan.Forms
             this.Btn_Clear.ColorContrastOnClick = 45;
             this.Btn_Clear.ColorContrastOnHover = 45;
             this.Btn_Clear.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges1.BottomLeft = true;
-            borderEdges1.BottomRight = true;
-            borderEdges1.TopLeft = true;
-            borderEdges1.TopRight = true;
-            this.Btn_Clear.CustomizableEdges = borderEdges1;
+            borderEdges2.BottomLeft = true;
+            borderEdges2.BottomRight = true;
+            borderEdges2.TopLeft = true;
+            borderEdges2.TopRight = true;
+            this.Btn_Clear.CustomizableEdges = borderEdges2;
             this.Btn_Clear.DialogResult = System.Windows.Forms.DialogResult.None;
             this.Btn_Clear.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.Btn_Clear.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
@@ -203,85 +203,86 @@ namespace PaintStoreManagerCatMan.Forms
             this.Btn_Clear.UseDefaultRadiusAndThickness = true;
             this.Btn_Clear.Click += new System.EventHandler(this.Btn_Clear_Click);
             // 
-            // TB_SearchCate
+            // TB_SearchUser
             // 
-            this.TB_SearchCate.AcceptsReturn = false;
-            this.TB_SearchCate.AcceptsTab = false;
-            this.TB_SearchCate.AnimationSpeed = 200;
-            this.TB_SearchCate.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
-            this.TB_SearchCate.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
-            this.TB_SearchCate.BackColor = System.Drawing.Color.Transparent;
-            this.TB_SearchCate.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("TB_SearchCate.BackgroundImage")));
-            this.TB_SearchCate.BorderColorActive = System.Drawing.Color.DodgerBlue;
-            this.TB_SearchCate.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.TB_SearchCate.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            this.TB_SearchCate.BorderColorIdle = System.Drawing.Color.Silver;
-            this.TB_SearchCate.BorderRadius = 1;
-            this.TB_SearchCate.BorderThickness = 1;
-            this.TB_SearchCate.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.TB_SearchCate.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.TB_SearchCate.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
-            this.TB_SearchCate.DefaultText = "";
-            this.TB_SearchCate.FillColor = System.Drawing.Color.White;
-            this.TB_SearchCate.HideSelection = true;
-            this.TB_SearchCate.IconLeft = null;
-            this.TB_SearchCate.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
-            this.TB_SearchCate.IconPadding = 10;
-            this.TB_SearchCate.IconRight = null;
-            this.TB_SearchCate.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
-            this.TB_SearchCate.Lines = new string[0];
-            this.TB_SearchCate.Location = new System.Drawing.Point(25, 25);
-            this.TB_SearchCate.MaxLength = 32767;
-            this.TB_SearchCate.MinimumSize = new System.Drawing.Size(1, 1);
-            this.TB_SearchCate.Modified = false;
-            this.TB_SearchCate.Multiline = false;
-            this.TB_SearchCate.Name = "TB_SearchCate";
-            stateProperties1.BorderColor = System.Drawing.Color.DodgerBlue;
-            stateProperties1.FillColor = System.Drawing.Color.Empty;
-            stateProperties1.ForeColor = System.Drawing.Color.Empty;
-            stateProperties1.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.TB_SearchCate.OnActiveState = stateProperties1;
-            stateProperties2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            stateProperties2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            stateProperties2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            stateProperties2.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.TB_SearchCate.OnDisabledState = stateProperties2;
-            stateProperties3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties3.FillColor = System.Drawing.Color.Empty;
-            stateProperties3.ForeColor = System.Drawing.Color.Empty;
-            stateProperties3.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.TB_SearchCate.OnHoverState = stateProperties3;
-            stateProperties4.BorderColor = System.Drawing.Color.Silver;
-            stateProperties4.FillColor = System.Drawing.Color.White;
-            stateProperties4.ForeColor = System.Drawing.Color.Empty;
-            stateProperties4.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.TB_SearchCate.OnIdleState = stateProperties4;
-            this.TB_SearchCate.Padding = new System.Windows.Forms.Padding(3);
-            this.TB_SearchCate.PasswordChar = '\0';
-            this.TB_SearchCate.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this.TB_SearchCate.PlaceholderText = "Enter text";
-            this.TB_SearchCate.ReadOnly = false;
-            this.TB_SearchCate.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.TB_SearchCate.SelectedText = "";
-            this.TB_SearchCate.SelectionLength = 0;
-            this.TB_SearchCate.SelectionStart = 0;
-            this.TB_SearchCate.ShortcutsEnabled = true;
-            this.TB_SearchCate.Size = new System.Drawing.Size(579, 37);
-            this.TB_SearchCate.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
-            this.TB_SearchCate.TabIndex = 1;
-            this.TB_SearchCate.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.TB_SearchCate.TextMarginBottom = 0;
-            this.TB_SearchCate.TextMarginLeft = 3;
-            this.TB_SearchCate.TextMarginTop = 0;
-            this.TB_SearchCate.TextPlaceholder = "Enter text";
-            this.TB_SearchCate.UseSystemPasswordChar = false;
-            this.TB_SearchCate.WordWrap = true;
+            this.TB_SearchUser.AcceptsReturn = false;
+            this.TB_SearchUser.AcceptsTab = false;
+            this.TB_SearchUser.AnimationSpeed = 200;
+            this.TB_SearchUser.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.TB_SearchUser.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.TB_SearchUser.BackColor = System.Drawing.Color.Transparent;
+            this.TB_SearchUser.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("TB_SearchUser.BackgroundImage")));
+            this.TB_SearchUser.BorderColorActive = System.Drawing.Color.DodgerBlue;
+            this.TB_SearchUser.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.TB_SearchUser.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.TB_SearchUser.BorderColorIdle = System.Drawing.Color.Silver;
+            this.TB_SearchUser.BorderRadius = 1;
+            this.TB_SearchUser.BorderThickness = 1;
+            this.TB_SearchUser.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.TB_SearchUser.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.TB_SearchUser.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
+            this.TB_SearchUser.DefaultText = "";
+            this.TB_SearchUser.FillColor = System.Drawing.Color.White;
+            this.TB_SearchUser.HideSelection = true;
+            this.TB_SearchUser.IconLeft = null;
+            this.TB_SearchUser.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.TB_SearchUser.IconPadding = 10;
+            this.TB_SearchUser.IconRight = null;
+            this.TB_SearchUser.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.TB_SearchUser.Lines = new string[0];
+            this.TB_SearchUser.Location = new System.Drawing.Point(25, 25);
+            this.TB_SearchUser.MaxLength = 32767;
+            this.TB_SearchUser.MinimumSize = new System.Drawing.Size(1, 1);
+            this.TB_SearchUser.Modified = false;
+            this.TB_SearchUser.Multiline = false;
+            this.TB_SearchUser.Name = "TB_SearchUser";
+            stateProperties17.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties17.FillColor = System.Drawing.Color.Empty;
+            stateProperties17.ForeColor = System.Drawing.Color.Empty;
+            stateProperties17.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.TB_SearchUser.OnActiveState = stateProperties17;
+            stateProperties18.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties18.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties18.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.TB_SearchUser.OnDisabledState = stateProperties18;
+            stateProperties19.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties19.FillColor = System.Drawing.Color.Empty;
+            stateProperties19.ForeColor = System.Drawing.Color.Empty;
+            stateProperties19.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.TB_SearchUser.OnHoverState = stateProperties19;
+            stateProperties20.BorderColor = System.Drawing.Color.Silver;
+            stateProperties20.FillColor = System.Drawing.Color.White;
+            stateProperties20.ForeColor = System.Drawing.Color.Empty;
+            stateProperties20.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.TB_SearchUser.OnIdleState = stateProperties20;
+            this.TB_SearchUser.Padding = new System.Windows.Forms.Padding(3);
+            this.TB_SearchUser.PasswordChar = '\0';
+            this.TB_SearchUser.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.TB_SearchUser.PlaceholderText = "Search Username";
+            this.TB_SearchUser.ReadOnly = false;
+            this.TB_SearchUser.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.TB_SearchUser.SelectedText = "";
+            this.TB_SearchUser.SelectionLength = 0;
+            this.TB_SearchUser.SelectionStart = 0;
+            this.TB_SearchUser.ShortcutsEnabled = true;
+            this.TB_SearchUser.Size = new System.Drawing.Size(579, 37);
+            this.TB_SearchUser.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
+            this.TB_SearchUser.TabIndex = 1;
+            this.TB_SearchUser.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.TB_SearchUser.TextMarginBottom = 0;
+            this.TB_SearchUser.TextMarginLeft = 3;
+            this.TB_SearchUser.TextMarginTop = 0;
+            this.TB_SearchUser.TextPlaceholder = "Search Username";
+            this.TB_SearchUser.UseSystemPasswordChar = false;
+            this.TB_SearchUser.WordWrap = true;
+            this.TB_SearchUser.TextChange += new System.EventHandler(this.TB_SearchUser_TextChange);
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ControlLight;
             this.panel1.Controls.Add(this.DGV_Users);
-            this.panel1.Controls.Add(this.TB_SearchCate);
+            this.panel1.Controls.Add(this.TB_SearchUser);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
@@ -291,22 +292,22 @@ namespace PaintStoreManagerCatMan.Forms
             // DGV_Users
             // 
             this.DGV_Users.AllowCustomTheming = false;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
-            this.DGV_Users.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black;
+            this.DGV_Users.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
             this.DGV_Users.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.DGV_Users.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
             this.DGV_Users.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.DGV_Users.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.DGV_Users.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.DodgerBlue;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI Semibold", 11.75F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(115)))), ((int)(((byte)(204)))));
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.DGV_Users.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.DodgerBlue;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI Semibold", 11.75F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(115)))), ((int)(((byte)(204)))));
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DGV_Users.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.DGV_Users.ColumnHeadersHeight = 40;
             this.DGV_Users.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
@@ -332,14 +333,14 @@ namespace PaintStoreManagerCatMan.Forms
             this.DGV_Users.CurrentTheme.RowsStyle.ForeColor = System.Drawing.Color.Black;
             this.DGV_Users.CurrentTheme.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
             this.DGV_Users.CurrentTheme.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.DGV_Users.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.DGV_Users.DefaultCellStyle = dataGridViewCellStyle6;
             this.DGV_Users.EnableHeadersVisualStyles = false;
             this.DGV_Users.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
             this.DGV_Users.HeaderBackColor = System.Drawing.Color.DodgerBlue;
@@ -353,6 +354,7 @@ namespace PaintStoreManagerCatMan.Forms
             this.DGV_Users.Size = new System.Drawing.Size(589, 430);
             this.DGV_Users.TabIndex = 2;
             this.DGV_Users.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Light;
+            this.DGV_Users.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DGV_Users_CellContentClick);
             // 
             // Btn_Delete
             // 
@@ -435,6 +437,7 @@ namespace PaintStoreManagerCatMan.Forms
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.ForeColor = System.Drawing.Color.DarkOrange;
             this.label4.Location = new System.Drawing.Point(679, 205);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(59, 13);
@@ -444,6 +447,7 @@ namespace PaintStoreManagerCatMan.Forms
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.ForeColor = System.Drawing.Color.DarkOrange;
             this.label3.Location = new System.Drawing.Point(679, 156);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(61, 13);
@@ -483,26 +487,26 @@ namespace PaintStoreManagerCatMan.Forms
             this.TB_Password.Modified = false;
             this.TB_Password.Multiline = false;
             this.TB_Password.Name = "TB_Password";
-            stateProperties5.BorderColor = System.Drawing.Color.DodgerBlue;
-            stateProperties5.FillColor = System.Drawing.Color.Empty;
-            stateProperties5.ForeColor = System.Drawing.Color.Empty;
-            stateProperties5.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.TB_Password.OnActiveState = stateProperties5;
-            stateProperties6.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            stateProperties6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            stateProperties6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            stateProperties6.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.TB_Password.OnDisabledState = stateProperties6;
-            stateProperties7.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties7.FillColor = System.Drawing.Color.Empty;
-            stateProperties7.ForeColor = System.Drawing.Color.Empty;
-            stateProperties7.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.TB_Password.OnHoverState = stateProperties7;
-            stateProperties8.BorderColor = System.Drawing.Color.Silver;
-            stateProperties8.FillColor = System.Drawing.Color.White;
-            stateProperties8.ForeColor = System.Drawing.Color.Empty;
-            stateProperties8.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.TB_Password.OnIdleState = stateProperties8;
+            stateProperties21.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties21.FillColor = System.Drawing.Color.Empty;
+            stateProperties21.ForeColor = System.Drawing.Color.Empty;
+            stateProperties21.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.TB_Password.OnActiveState = stateProperties21;
+            stateProperties22.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties22.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties22.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.TB_Password.OnDisabledState = stateProperties22;
+            stateProperties23.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties23.FillColor = System.Drawing.Color.Empty;
+            stateProperties23.ForeColor = System.Drawing.Color.Empty;
+            stateProperties23.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.TB_Password.OnHoverState = stateProperties23;
+            stateProperties24.BorderColor = System.Drawing.Color.Silver;
+            stateProperties24.FillColor = System.Drawing.Color.White;
+            stateProperties24.ForeColor = System.Drawing.Color.Empty;
+            stateProperties24.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.TB_Password.OnIdleState = stateProperties24;
             this.TB_Password.Padding = new System.Windows.Forms.Padding(3);
             this.TB_Password.PasswordChar = '\0';
             this.TB_Password.PlaceholderForeColor = System.Drawing.Color.Silver;
@@ -557,26 +561,26 @@ namespace PaintStoreManagerCatMan.Forms
             this.Tb_Usernm.Modified = false;
             this.Tb_Usernm.Multiline = false;
             this.Tb_Usernm.Name = "Tb_Usernm";
-            stateProperties9.BorderColor = System.Drawing.Color.DodgerBlue;
-            stateProperties9.FillColor = System.Drawing.Color.Empty;
-            stateProperties9.ForeColor = System.Drawing.Color.Empty;
-            stateProperties9.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.Tb_Usernm.OnActiveState = stateProperties9;
-            stateProperties10.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            stateProperties10.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            stateProperties10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            stateProperties10.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.Tb_Usernm.OnDisabledState = stateProperties10;
-            stateProperties11.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties11.FillColor = System.Drawing.Color.Empty;
-            stateProperties11.ForeColor = System.Drawing.Color.Empty;
-            stateProperties11.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.Tb_Usernm.OnHoverState = stateProperties11;
-            stateProperties12.BorderColor = System.Drawing.Color.Silver;
-            stateProperties12.FillColor = System.Drawing.Color.White;
-            stateProperties12.ForeColor = System.Drawing.Color.Empty;
-            stateProperties12.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.Tb_Usernm.OnIdleState = stateProperties12;
+            stateProperties25.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties25.FillColor = System.Drawing.Color.Empty;
+            stateProperties25.ForeColor = System.Drawing.Color.Empty;
+            stateProperties25.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.Tb_Usernm.OnActiveState = stateProperties25;
+            stateProperties26.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties26.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties26.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties26.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.Tb_Usernm.OnDisabledState = stateProperties26;
+            stateProperties27.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties27.FillColor = System.Drawing.Color.Empty;
+            stateProperties27.ForeColor = System.Drawing.Color.Empty;
+            stateProperties27.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.Tb_Usernm.OnHoverState = stateProperties27;
+            stateProperties28.BorderColor = System.Drawing.Color.Silver;
+            stateProperties28.FillColor = System.Drawing.Color.White;
+            stateProperties28.ForeColor = System.Drawing.Color.Empty;
+            stateProperties28.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.Tb_Usernm.OnIdleState = stateProperties28;
             this.Tb_Usernm.Padding = new System.Windows.Forms.Padding(3);
             this.Tb_Usernm.PasswordChar = '\0';
             this.Tb_Usernm.PlaceholderForeColor = System.Drawing.Color.Silver;
@@ -601,6 +605,7 @@ namespace PaintStoreManagerCatMan.Forms
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.ForeColor = System.Drawing.Color.DarkOrange;
             this.label6.Location = new System.Drawing.Point(679, 113);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(41, 13);
@@ -640,26 +645,26 @@ namespace PaintStoreManagerCatMan.Forms
             this.TB_Name.Modified = false;
             this.TB_Name.Multiline = false;
             this.TB_Name.Name = "TB_Name";
-            stateProperties13.BorderColor = System.Drawing.Color.DodgerBlue;
-            stateProperties13.FillColor = System.Drawing.Color.Empty;
-            stateProperties13.ForeColor = System.Drawing.Color.Empty;
-            stateProperties13.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.TB_Name.OnActiveState = stateProperties13;
-            stateProperties14.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            stateProperties14.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            stateProperties14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            stateProperties14.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.TB_Name.OnDisabledState = stateProperties14;
-            stateProperties15.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties15.FillColor = System.Drawing.Color.Empty;
-            stateProperties15.ForeColor = System.Drawing.Color.Empty;
-            stateProperties15.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.TB_Name.OnHoverState = stateProperties15;
-            stateProperties16.BorderColor = System.Drawing.Color.Silver;
-            stateProperties16.FillColor = System.Drawing.Color.White;
-            stateProperties16.ForeColor = System.Drawing.Color.Empty;
-            stateProperties16.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.TB_Name.OnIdleState = stateProperties16;
+            stateProperties29.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties29.FillColor = System.Drawing.Color.Empty;
+            stateProperties29.ForeColor = System.Drawing.Color.Empty;
+            stateProperties29.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.TB_Name.OnActiveState = stateProperties29;
+            stateProperties30.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties30.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties30.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties30.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.TB_Name.OnDisabledState = stateProperties30;
+            stateProperties31.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties31.FillColor = System.Drawing.Color.Empty;
+            stateProperties31.ForeColor = System.Drawing.Color.Empty;
+            stateProperties31.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.TB_Name.OnHoverState = stateProperties31;
+            stateProperties32.BorderColor = System.Drawing.Color.Silver;
+            stateProperties32.FillColor = System.Drawing.Color.White;
+            stateProperties32.ForeColor = System.Drawing.Color.Empty;
+            stateProperties32.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.TB_Name.OnIdleState = stateProperties32;
             this.TB_Name.Padding = new System.Windows.Forms.Padding(3);
             this.TB_Name.PasswordChar = '\0';
             this.TB_Name.PlaceholderForeColor = System.Drawing.Color.Silver;
@@ -706,6 +711,7 @@ namespace PaintStoreManagerCatMan.Forms
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.ForeColor = System.Drawing.Color.DarkOrange;
             this.label1.Location = new System.Drawing.Point(679, 260);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(39, 13);
@@ -715,30 +721,35 @@ namespace PaintStoreManagerCatMan.Forms
             // Column1
             // 
             this.Column1.DataPropertyName = "Id";
+            this.Column1.FillWeight = 50.76142F;
             this.Column1.HeaderText = "Id";
             this.Column1.Name = "Column1";
             // 
             // Column2
             // 
             this.Column2.DataPropertyName = "Name";
+            this.Column2.FillWeight = 112.3096F;
             this.Column2.HeaderText = "Name";
             this.Column2.Name = "Column2";
             // 
             // Column3
             // 
             this.Column3.DataPropertyName = "Username";
+            this.Column3.FillWeight = 112.3096F;
             this.Column3.HeaderText = "Username";
             this.Column3.Name = "Column3";
             // 
             // Column4
             // 
             this.Column4.DataPropertyName = "Password";
+            this.Column4.FillWeight = 112.3096F;
             this.Column4.HeaderText = "Password";
             this.Column4.Name = "Column4";
             // 
             // Column5
             // 
             this.Column5.DataPropertyName = "Level";
+            this.Column5.FillWeight = 112.3096F;
             this.Column5.HeaderText = "Level";
             this.Column5.Name = "Column5";
             // 
@@ -783,7 +794,7 @@ namespace PaintStoreManagerCatMan.Forms
         private PaintStoreDBDataSet paintStoreDBDataSet;
         private System.Windows.Forms.BindingSource tblCategoriesBindingSource1;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton Btn_Clear;
-        private Bunifu.UI.WinForms.BunifuTextBox TB_SearchCate;
+        private Bunifu.UI.WinForms.BunifuTextBox TB_SearchUser;
         private System.Windows.Forms.Panel panel1;
         private Bunifu.UI.WinForms.BunifuDataGridView DGV_Users;
         private Bunifu.Framework.UI.BunifuThinButton2 Btn_Delete;

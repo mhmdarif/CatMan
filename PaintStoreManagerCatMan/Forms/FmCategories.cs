@@ -79,6 +79,7 @@ namespace PaintStoreManagerCatMan.Forms
 
         private void FmCategories_Load(object sender, EventArgs e)
         {
+            ClearAll();
             UpdateDgv();
         }
 
@@ -90,7 +91,24 @@ namespace PaintStoreManagerCatMan.Forms
 
         private void TB_SearchCate_TextChange(object sender, EventArgs e)
         {
-            
+            if (TB_SearchCate.Text == "")
+            {
+                UpdateDgv();
+            }
+            else
+            {
+                SqlConnection con = new SqlConnection(connstring);
+                string sqlQuery = "SELECT * FROM TblCategories where CateName = '" + TB_SearchCate.Text + "' ";
+
+                con.Open();
+                SqlCommand cmd = new SqlCommand(sqlQuery, con);
+                SqlDataAdapter sda = new SqlDataAdapter(cmd);
+                DataTable dt = new DataTable();
+
+                sda.Fill(dt);
+                DGV_Cate.DataSource = dt;
+                con.Close();
+            }
         }
     }
 }

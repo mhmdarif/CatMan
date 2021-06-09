@@ -12,6 +12,7 @@ namespace PaintStoreManagerCatMan.Service
     class CartSvs : ICartSvs
     {
         readonly string connstring = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Database\PaintStoreDB.mdf;Integrated Security=True;Connect Timeout=30";
+        double totalCost = 0;
 
         public List<Carts> GetAllCarts()
         {
@@ -82,24 +83,24 @@ namespace PaintStoreManagerCatMan.Service
 
             con.Close();
         }
-       /* public double GetCartTotalCost()
+        public double GetCartTotalCost()
         {
-            *//*S*//*qlConnection con = new SqlConnection(connstring);
-            double totalCost = 0;
+            SqlConnection con = new SqlConnection(connstring);
+            
             List<CartSvs> lsCart = new List<CartSvs>();
             //sqlcon
-            string sql = "select BuyPrice from TblCarts";
+            string sql = "select SellPrice from TblCarts";
             con.Open();
 
             SqlCommand cmd = new SqlCommand(sql, con);
             SqlDataReader dr = cmd.ExecuteReader();
             while (dr.Read())
             {
-                totalCost = totalCost + (double)dr["Price"];
+                totalCost = totalCost + (double)dr["SellPrice"];
             }
             con.Close();
 
-            return totalCost;*//*
-        }*/
+            return totalCost;
+        }
     }
 }

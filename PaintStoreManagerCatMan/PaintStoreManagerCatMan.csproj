@@ -234,8 +234,10 @@
     <Compile Include="Service\ICartSvs.cs" />
     <Compile Include="Service\ICategorySvs.cs" />
     <Compile Include="Service\IPaintSvs.cs" />
+    <Compile Include="Service\IReportsSvs.cs" />
     <Compile Include="Service\IUserSvs.cs" />
     <Compile Include="Service\PaintSvs.cs" />
+    <Compile Include="Service\ReportsSvs.cs" />
     <Compile Include="Service\UserSvscs.cs" />
     <Compile Include="TblCategoriesDataSet.Designer.cs">
       <AutoGen>True</AutoGen>

@@ -31,37 +31,37 @@ namespace PaintStoreManagerCatMan.Forms
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FmCart));
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties1 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties2 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties3 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties4 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties5 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties6 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties7 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties8 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties9 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties10 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties11 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties12 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties13 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties14 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties15 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties16 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            this.label7 = new System.Windows.Forms.Label();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties33 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties34 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties35 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties36 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties37 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties38 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties39 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties40 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties41 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties42 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties43 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties44 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties45 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties46 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties47 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties48 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges3 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            this.Lbl_Change = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.Btn_Pay = new Bunifu.Framework.UI.BunifuThinButton2();
             this.Tb_CustomerCash = new Bunifu.UI.WinForms.BunifuTextBox();
             this.TB_CustomerName = new Bunifu.UI.WinForms.BunifuTextBox();
-            this.label2 = new System.Windows.Forms.Label();
+            this.Lbl_Total = new System.Windows.Forms.Label();
             this.Btn_DeleteCart = new Bunifu.Framework.UI.BunifuThinButton2();
             this.TB_SearchByColor = new Bunifu.UI.WinForms.BunifuTextBox();
             this.TB_SearchByBrand = new Bunifu.UI.WinForms.BunifuTextBox();
@@ -72,6 +72,12 @@ namespace PaintStoreManagerCatMan.Forms
             this.Btn_AddCart = new Bunifu.Framework.UI.BunifuThinButton2();
             this.bunifuLabel1 = new Bunifu.UI.WinForms.BunifuLabel();
             this.DGV_Cart = new Bunifu.UI.WinForms.BunifuDataGridView();
+            this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column13 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.paintStoreDBDataSet1 = new PaintStoreManagerCatMan.PaintStoreDBDataSet1();
             this.tblPaintsBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.tblPaintsTableAdapter = new PaintStoreManagerCatMan.PaintStoreDBDataSet1TableAdapters.TblPaintsTableAdapter();
@@ -83,12 +89,6 @@ namespace PaintStoreManagerCatMan.Forms
             this.tblCategoriesBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.tblCategoriesTableAdapter1 = new PaintStoreManagerCatMan.TblCategoriesDataSetTableAdapters.TblCategoriesTableAdapter();
             this.BtnClear = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
-            this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column13 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -108,21 +108,23 @@ namespace PaintStoreManagerCatMan.Forms
             ((System.ComponentModel.ISupportInitialize)(this.tblCategoriesBindingSource1)).BeginInit();
             this.SuspendLayout();
             // 
-            // label7
+            // Lbl_Change
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(687, 454);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(15, 17);
-            this.label7.TabIndex = 36;
-            this.label7.Text = "0";
-            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Lbl_Change.AutoSize = true;
+            this.Lbl_Change.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_Change.ForeColor = System.Drawing.Color.Red;
+            this.Lbl_Change.Location = new System.Drawing.Point(687, 454);
+            this.Lbl_Change.Name = "Lbl_Change";
+            this.Lbl_Change.Size = new System.Drawing.Size(15, 17);
+            this.Lbl_Change.TabIndex = 36;
+            this.Lbl_Change.Text = "0";
+            this.Lbl_Change.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.Red;
             this.label6.Location = new System.Drawing.Point(612, 454);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(69, 17);
@@ -133,6 +135,7 @@ namespace PaintStoreManagerCatMan.Forms
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.DarkOrange;
             this.label5.Location = new System.Drawing.Point(612, 420);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(49, 17);
@@ -143,6 +146,7 @@ namespace PaintStoreManagerCatMan.Forms
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.DarkOrange;
             this.label3.Location = new System.Drawing.Point(612, 385);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(56, 17);
@@ -167,7 +171,7 @@ namespace PaintStoreManagerCatMan.Forms
             this.Btn_Pay.IdleFillColor = System.Drawing.Color.DarkOrange;
             this.Btn_Pay.IdleForecolor = System.Drawing.Color.White;
             this.Btn_Pay.IdleLineColor = System.Drawing.Color.DarkOrange;
-            this.Btn_Pay.Location = new System.Drawing.Point(771, 484);
+            this.Btn_Pay.Location = new System.Drawing.Point(761, 484);
             this.Btn_Pay.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Btn_Pay.Name = "Btn_Pay";
             this.Btn_Pay.Size = new System.Drawing.Size(154, 46);
@@ -208,26 +212,26 @@ namespace PaintStoreManagerCatMan.Forms
             this.Tb_CustomerCash.Modified = false;
             this.Tb_CustomerCash.Multiline = false;
             this.Tb_CustomerCash.Name = "Tb_CustomerCash";
-            stateProperties1.BorderColor = System.Drawing.Color.DodgerBlue;
-            stateProperties1.FillColor = System.Drawing.Color.Empty;
-            stateProperties1.ForeColor = System.Drawing.Color.Empty;
-            stateProperties1.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.Tb_CustomerCash.OnActiveState = stateProperties1;
-            stateProperties2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            stateProperties2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            stateProperties2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            stateProperties2.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.Tb_CustomerCash.OnDisabledState = stateProperties2;
-            stateProperties3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties3.FillColor = System.Drawing.Color.Empty;
-            stateProperties3.ForeColor = System.Drawing.Color.Empty;
-            stateProperties3.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.Tb_CustomerCash.OnHoverState = stateProperties3;
-            stateProperties4.BorderColor = System.Drawing.Color.Silver;
-            stateProperties4.FillColor = System.Drawing.Color.White;
-            stateProperties4.ForeColor = System.Drawing.Color.Empty;
-            stateProperties4.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.Tb_CustomerCash.OnIdleState = stateProperties4;
+            stateProperties33.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties33.FillColor = System.Drawing.Color.Empty;
+            stateProperties33.ForeColor = System.Drawing.Color.Empty;
+            stateProperties33.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.Tb_CustomerCash.OnActiveState = stateProperties33;
+            stateProperties34.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties34.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties34.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties34.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.Tb_CustomerCash.OnDisabledState = stateProperties34;
+            stateProperties35.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties35.FillColor = System.Drawing.Color.Empty;
+            stateProperties35.ForeColor = System.Drawing.Color.Empty;
+            stateProperties35.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.Tb_CustomerCash.OnHoverState = stateProperties35;
+            stateProperties36.BorderColor = System.Drawing.Color.Silver;
+            stateProperties36.FillColor = System.Drawing.Color.White;
+            stateProperties36.ForeColor = System.Drawing.Color.Empty;
+            stateProperties36.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.Tb_CustomerCash.OnIdleState = stateProperties36;
             this.Tb_CustomerCash.Padding = new System.Windows.Forms.Padding(3);
             this.Tb_CustomerCash.PasswordChar = '\0';
             this.Tb_CustomerCash.PlaceholderForeColor = System.Drawing.Color.Silver;
@@ -248,6 +252,7 @@ namespace PaintStoreManagerCatMan.Forms
             this.Tb_CustomerCash.TextPlaceholder = "Costumber cash";
             this.Tb_CustomerCash.UseSystemPasswordChar = false;
             this.Tb_CustomerCash.WordWrap = true;
+            this.Tb_CustomerCash.TextChange += new System.EventHandler(this.Tb_CustomerCash_TextChange);
             // 
             // TB_CustomerName
             // 
@@ -282,26 +287,26 @@ namespace PaintStoreManagerCatMan.Forms
             this.TB_CustomerName.Modified = false;
             this.TB_CustomerName.Multiline = false;
             this.TB_CustomerName.Name = "TB_CustomerName";
-            stateProperties5.BorderColor = System.Drawing.Color.DodgerBlue;
-            stateProperties5.FillColor = System.Drawing.Color.Empty;
-            stateProperties5.ForeColor = System.Drawing.Color.Empty;
-            stateProperties5.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.TB_CustomerName.OnActiveState = stateProperties5;
-            stateProperties6.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            stateProperties6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            stateProperties6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            stateProperties6.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.TB_CustomerName.OnDisabledState = stateProperties6;
-            stateProperties7.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties7.FillColor = System.Drawing.Color.Empty;
-            stateProperties7.ForeColor = System.Drawing.Color.Empty;
-            stateProperties7.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.TB_CustomerName.OnHoverState = stateProperties7;
-            stateProperties8.BorderColor = System.Drawing.Color.Silver;
-            stateProperties8.FillColor = System.Drawing.Color.White;
-            stateProperties8.ForeColor = System.Drawing.Color.Empty;
-            stateProperties8.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.TB_CustomerName.OnIdleState = stateProperties8;
+            stateProperties37.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties37.FillColor = System.Drawing.Color.Empty;
+            stateProperties37.ForeColor = System.Drawing.Color.Empty;
+            stateProperties37.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.TB_CustomerName.OnActiveState = stateProperties37;
+            stateProperties38.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties38.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties38.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties38.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.TB_CustomerName.OnDisabledState = stateProperties38;
+            stateProperties39.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties39.FillColor = System.Drawing.Color.Empty;
+            stateProperties39.ForeColor = System.Drawing.Color.Empty;
+            stateProperties39.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.TB_CustomerName.OnHoverState = stateProperties39;
+            stateProperties40.BorderColor = System.Drawing.Color.Silver;
+            stateProperties40.FillColor = System.Drawing.Color.White;
+            stateProperties40.ForeColor = System.Drawing.Color.Empty;
+            stateProperties40.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.TB_CustomerName.OnIdleState = stateProperties40;
             this.TB_CustomerName.Padding = new System.Windows.Forms.Padding(3);
             this.TB_CustomerName.PasswordChar = '\0';
             this.TB_CustomerName.PlaceholderForeColor = System.Drawing.Color.Silver;
@@ -323,16 +328,17 @@ namespace PaintStoreManagerCatMan.Forms
             this.TB_CustomerName.UseSystemPasswordChar = false;
             this.TB_CustomerName.WordWrap = true;
             // 
-            // label2
+            // Lbl_Total
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(923, 324);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(15, 17);
-            this.label2.TabIndex = 27;
-            this.label2.Text = "0";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Lbl_Total.AutoSize = true;
+            this.Lbl_Total.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_Total.ForeColor = System.Drawing.Color.Red;
+            this.Lbl_Total.Location = new System.Drawing.Point(923, 324);
+            this.Lbl_Total.Name = "Lbl_Total";
+            this.Lbl_Total.Size = new System.Drawing.Size(15, 17);
+            this.Lbl_Total.TabIndex = 27;
+            this.Lbl_Total.Text = "0";
+            this.Lbl_Total.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // Btn_DeleteCart
             // 
@@ -393,26 +399,26 @@ namespace PaintStoreManagerCatMan.Forms
             this.TB_SearchByColor.Modified = false;
             this.TB_SearchByColor.Multiline = false;
             this.TB_SearchByColor.Name = "TB_SearchByColor";
-            stateProperties9.BorderColor = System.Drawing.Color.DodgerBlue;
-            stateProperties9.FillColor = System.Drawing.Color.Empty;
-            stateProperties9.ForeColor = System.Drawing.Color.Empty;
-            stateProperties9.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.TB_SearchByColor.OnActiveState = stateProperties9;
-            stateProperties10.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            stateProperties10.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            stateProperties10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            stateProperties10.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.TB_SearchByColor.OnDisabledState = stateProperties10;
-            stateProperties11.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties11.FillColor = System.Drawing.Color.Empty;
-            stateProperties11.ForeColor = System.Drawing.Color.Empty;
-            stateProperties11.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.TB_SearchByColor.OnHoverState = stateProperties11;
-            stateProperties12.BorderColor = System.Drawing.Color.Silver;
-            stateProperties12.FillColor = System.Drawing.Color.White;
-            stateProperties12.ForeColor = System.Drawing.Color.Empty;
-            stateProperties12.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.TB_SearchByColor.OnIdleState = stateProperties12;
+            stateProperties41.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties41.FillColor = System.Drawing.Color.Empty;
+            stateProperties41.ForeColor = System.Drawing.Color.Empty;
+            stateProperties41.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.TB_SearchByColor.OnActiveState = stateProperties41;
+            stateProperties42.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties42.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties42.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties42.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.TB_SearchByColor.OnDisabledState = stateProperties42;
+            stateProperties43.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties43.FillColor = System.Drawing.Color.Empty;
+            stateProperties43.ForeColor = System.Drawing.Color.Empty;
+            stateProperties43.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.TB_SearchByColor.OnHoverState = stateProperties43;
+            stateProperties44.BorderColor = System.Drawing.Color.Silver;
+            stateProperties44.FillColor = System.Drawing.Color.White;
+            stateProperties44.ForeColor = System.Drawing.Color.Empty;
+            stateProperties44.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.TB_SearchByColor.OnIdleState = stateProperties44;
             this.TB_SearchByColor.Padding = new System.Windows.Forms.Padding(3);
             this.TB_SearchByColor.PasswordChar = '\0';
             this.TB_SearchByColor.PlaceholderForeColor = System.Drawing.Color.Silver;
@@ -433,6 +439,7 @@ namespace PaintStoreManagerCatMan.Forms
             this.TB_SearchByColor.TextPlaceholder = "Search by colour";
             this.TB_SearchByColor.UseSystemPasswordChar = false;
             this.TB_SearchByColor.WordWrap = true;
+            this.TB_SearchByColor.TextChange += new System.EventHandler(this.TB_SearchByColor_TextChange);
             this.TB_SearchByColor.TextChanged += new System.EventHandler(this.bunifuTextBox2_TextChanged);
             // 
             // TB_SearchByBrand
@@ -468,26 +475,26 @@ namespace PaintStoreManagerCatMan.Forms
             this.TB_SearchByBrand.Modified = false;
             this.TB_SearchByBrand.Multiline = false;
             this.TB_SearchByBrand.Name = "TB_SearchByBrand";
-            stateProperties13.BorderColor = System.Drawing.Color.DodgerBlue;
-            stateProperties13.FillColor = System.Drawing.Color.Empty;
-            stateProperties13.ForeColor = System.Drawing.Color.Empty;
-            stateProperties13.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.TB_SearchByBrand.OnActiveState = stateProperties13;
-            stateProperties14.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            stateProperties14.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            stateProperties14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            stateProperties14.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.TB_SearchByBrand.OnDisabledState = stateProperties14;
-            stateProperties15.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties15.FillColor = System.Drawing.Color.Empty;
-            stateProperties15.ForeColor = System.Drawing.Color.Empty;
-            stateProperties15.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.TB_SearchByBrand.OnHoverState = stateProperties15;
-            stateProperties16.BorderColor = System.Drawing.Color.Silver;
-            stateProperties16.FillColor = System.Drawing.Color.White;
-            stateProperties16.ForeColor = System.Drawing.Color.Empty;
-            stateProperties16.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.TB_SearchByBrand.OnIdleState = stateProperties16;
+            stateProperties45.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties45.FillColor = System.Drawing.Color.Empty;
+            stateProperties45.ForeColor = System.Drawing.Color.Empty;
+            stateProperties45.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.TB_SearchByBrand.OnActiveState = stateProperties45;
+            stateProperties46.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties46.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties46.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties46.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.TB_SearchByBrand.OnDisabledState = stateProperties46;
+            stateProperties47.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties47.FillColor = System.Drawing.Color.Empty;
+            stateProperties47.ForeColor = System.Drawing.Color.Empty;
+            stateProperties47.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.TB_SearchByBrand.OnHoverState = stateProperties47;
+            stateProperties48.BorderColor = System.Drawing.Color.Silver;
+            stateProperties48.FillColor = System.Drawing.Color.White;
+            stateProperties48.ForeColor = System.Drawing.Color.Empty;
+            stateProperties48.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.TB_SearchByBrand.OnIdleState = stateProperties48;
             this.TB_SearchByBrand.Padding = new System.Windows.Forms.Padding(3);
             this.TB_SearchByBrand.PasswordChar = '\0';
             this.TB_SearchByBrand.PlaceholderForeColor = System.Drawing.Color.Silver;
@@ -508,11 +515,13 @@ namespace PaintStoreManagerCatMan.Forms
             this.TB_SearchByBrand.TextPlaceholder = "Search by brand name";
             this.TB_SearchByBrand.UseSystemPasswordChar = false;
             this.TB_SearchByBrand.WordWrap = true;
+            this.TB_SearchByBrand.TextChange += new System.EventHandler(this.TB_SearchByBrand_TextChange);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Red;
             this.label1.Location = new System.Drawing.Point(868, 324);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(47, 17);
@@ -541,22 +550,22 @@ namespace PaintStoreManagerCatMan.Forms
             // DGV_PaintCart
             // 
             this.DGV_PaintCart.AllowCustomTheming = false;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
-            this.DGV_PaintCart.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle13.ForeColor = System.Drawing.Color.Black;
+            this.DGV_PaintCart.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle13;
             this.DGV_PaintCart.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.DGV_PaintCart.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
             this.DGV_PaintCart.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.DGV_PaintCart.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.DGV_PaintCart.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.DodgerBlue;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI Semibold", 11.75F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(115)))), ((int)(((byte)(204)))));
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.DGV_PaintCart.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle14.BackColor = System.Drawing.Color.DodgerBlue;
+            dataGridViewCellStyle14.Font = new System.Drawing.Font("Segoe UI Semibold", 11.75F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle14.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle14.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(115)))), ((int)(((byte)(204)))));
+            dataGridViewCellStyle14.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DGV_PaintCart.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle14;
             this.DGV_PaintCart.ColumnHeadersHeight = 40;
             this.DGV_PaintCart.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
@@ -584,14 +593,14 @@ namespace PaintStoreManagerCatMan.Forms
             this.DGV_PaintCart.CurrentTheme.RowsStyle.ForeColor = System.Drawing.Color.Black;
             this.DGV_PaintCart.CurrentTheme.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
             this.DGV_PaintCart.CurrentTheme.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.DGV_PaintCart.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle15.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle15.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle15.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            dataGridViewCellStyle15.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle15.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle15.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.DGV_PaintCart.DefaultCellStyle = dataGridViewCellStyle15;
             this.DGV_PaintCart.EnableHeadersVisualStyles = false;
             this.DGV_PaintCart.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
             this.DGV_PaintCart.HeaderBackColor = System.Drawing.Color.DodgerBlue;
@@ -611,7 +620,7 @@ namespace PaintStoreManagerCatMan.Forms
             this.CB_CateCart.FormattingEnabled = true;
             this.CB_CateCart.Items.AddRange(new object[] {
             "All"});
-            this.CB_CateCart.Location = new System.Drawing.Point(361, 49);
+            this.CB_CateCart.Location = new System.Drawing.Point(361, 41);
             this.CB_CateCart.Name = "CB_CateCart";
             this.CB_CateCart.Size = new System.Drawing.Size(188, 21);
             this.CB_CateCart.TabIndex = 33;
@@ -662,22 +671,22 @@ namespace PaintStoreManagerCatMan.Forms
             // DGV_Cart
             // 
             this.DGV_Cart.AllowCustomTheming = false;
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black;
-            this.DGV_Cart.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle16.ForeColor = System.Drawing.Color.Black;
+            this.DGV_Cart.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle16;
             this.DGV_Cart.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.DGV_Cart.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
             this.DGV_Cart.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.DGV_Cart.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.DGV_Cart.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.DodgerBlue;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI Semibold", 11.75F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(115)))), ((int)(((byte)(204)))));
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.DGV_Cart.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle17.BackColor = System.Drawing.Color.DodgerBlue;
+            dataGridViewCellStyle17.Font = new System.Drawing.Font("Segoe UI Semibold", 11.75F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle17.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle17.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(115)))), ((int)(((byte)(204)))));
+            dataGridViewCellStyle17.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle17.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DGV_Cart.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle17;
             this.DGV_Cart.ColumnHeadersHeight = 40;
             this.DGV_Cart.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column8,
@@ -704,14 +713,14 @@ namespace PaintStoreManagerCatMan.Forms
             this.DGV_Cart.CurrentTheme.RowsStyle.ForeColor = System.Drawing.Color.Black;
             this.DGV_Cart.CurrentTheme.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
             this.DGV_Cart.CurrentTheme.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.DGV_Cart.DefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle18.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle18.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle18.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            dataGridViewCellStyle18.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle18.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle18.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.DGV_Cart.DefaultCellStyle = dataGridViewCellStyle18;
             this.DGV_Cart.EnableHeadersVisualStyles = false;
             this.DGV_Cart.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
             this.DGV_Cart.HeaderBackColor = System.Drawing.Color.DodgerBlue;
@@ -725,6 +734,48 @@ namespace PaintStoreManagerCatMan.Forms
             this.DGV_Cart.Size = new System.Drawing.Size(457, 222);
             this.DGV_Cart.TabIndex = 22;
             this.DGV_Cart.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Light;
+            // 
+            // Column8
+            // 
+            this.Column8.DataPropertyName = "Id";
+            this.Column8.FillWeight = 60.9137F;
+            this.Column8.HeaderText = "Id";
+            this.Column8.Name = "Column8";
+            // 
+            // Column9
+            // 
+            this.Column9.DataPropertyName = "Brand";
+            this.Column9.FillWeight = 107.8173F;
+            this.Column9.HeaderText = "Brand";
+            this.Column9.Name = "Column9";
+            // 
+            // Column10
+            // 
+            this.Column10.DataPropertyName = "Color";
+            this.Column10.FillWeight = 107.8173F;
+            this.Column10.HeaderText = "Color";
+            this.Column10.Name = "Column10";
+            // 
+            // Column11
+            // 
+            this.Column11.DataPropertyName = "Category";
+            this.Column11.FillWeight = 107.8173F;
+            this.Column11.HeaderText = "Category";
+            this.Column11.Name = "Column11";
+            // 
+            // Column12
+            // 
+            this.Column12.DataPropertyName = "Size";
+            this.Column12.FillWeight = 107.8173F;
+            this.Column12.HeaderText = "Size";
+            this.Column12.Name = "Column12";
+            // 
+            // Column13
+            // 
+            this.Column13.DataPropertyName = "SellPrice";
+            this.Column13.FillWeight = 107.8173F;
+            this.Column13.HeaderText = "Price";
+            this.Column13.Name = "Column13";
             // 
             // paintStoreDBDataSet1
             // 
@@ -792,11 +843,11 @@ namespace PaintStoreManagerCatMan.Forms
             this.BtnClear.ColorContrastOnClick = 45;
             this.BtnClear.ColorContrastOnHover = 45;
             this.BtnClear.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges1.BottomLeft = true;
-            borderEdges1.BottomRight = true;
-            borderEdges1.TopLeft = true;
-            borderEdges1.TopRight = true;
-            this.BtnClear.CustomizableEdges = borderEdges1;
+            borderEdges3.BottomLeft = true;
+            borderEdges3.BottomRight = true;
+            borderEdges3.TopLeft = true;
+            borderEdges3.TopRight = true;
+            this.BtnClear.CustomizableEdges = borderEdges3;
             this.BtnClear.DialogResult = System.Windows.Forms.DialogResult.None;
             this.BtnClear.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.BtnClear.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
@@ -863,52 +914,10 @@ namespace PaintStoreManagerCatMan.Forms
             this.BtnClear.UseDefaultRadiusAndThickness = true;
             this.BtnClear.Click += new System.EventHandler(this.BtnClear_Click);
             // 
-            // Column8
-            // 
-            this.Column8.DataPropertyName = "Id";
-            this.Column8.FillWeight = 60.9137F;
-            this.Column8.HeaderText = "Id";
-            this.Column8.Name = "Column8";
-            // 
-            // Column9
-            // 
-            this.Column9.DataPropertyName = "Brand";
-            this.Column9.FillWeight = 107.8173F;
-            this.Column9.HeaderText = "Brand";
-            this.Column9.Name = "Column9";
-            // 
-            // Column10
-            // 
-            this.Column10.DataPropertyName = "Color";
-            this.Column10.FillWeight = 107.8173F;
-            this.Column10.HeaderText = "Color";
-            this.Column10.Name = "Column10";
-            // 
-            // Column11
-            // 
-            this.Column11.DataPropertyName = "Category";
-            this.Column11.FillWeight = 107.8173F;
-            this.Column11.HeaderText = "Category";
-            this.Column11.Name = "Column11";
-            // 
-            // Column12
-            // 
-            this.Column12.DataPropertyName = "Size";
-            this.Column12.FillWeight = 107.8173F;
-            this.Column12.HeaderText = "Size";
-            this.Column12.Name = "Column12";
-            // 
-            // Column13
-            // 
-            this.Column13.DataPropertyName = "SellPrice";
-            this.Column13.FillWeight = 107.8173F;
-            this.Column13.HeaderText = "Price";
-            this.Column13.Name = "Column13";
-            // 
             // Column1
             // 
             this.Column1.DataPropertyName = "Id";
-            this.Column1.FillWeight = 71.06599F;
+            this.Column1.FillWeight = 71.06597F;
             this.Column1.HeaderText = "Id";
             this.Column1.Name = "Column1";
             // 
@@ -960,7 +969,7 @@ namespace PaintStoreManagerCatMan.Forms
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1068, 542);
             this.Controls.Add(this.BtnClear);
-            this.Controls.Add(this.label7);
+            this.Controls.Add(this.Lbl_Change);
             this.Controls.Add(this.Btn_AddCart);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -968,12 +977,13 @@ namespace PaintStoreManagerCatMan.Forms
             this.Controls.Add(this.Btn_Pay);
             this.Controls.Add(this.Tb_CustomerCash);
             this.Controls.Add(this.TB_CustomerName);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.Lbl_Total);
             this.Controls.Add(this.Btn_DeleteCart);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.bunifuPanel1);
             this.Controls.Add(this.bunifuLabel1);
             this.Controls.Add(this.DGV_Cart);
+            this.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.Name = "FmCart";
             this.Text = "Transaction Section";
             this.Load += new System.EventHandler(this.FmCart_Load);
@@ -994,14 +1004,14 @@ namespace PaintStoreManagerCatMan.Forms
 
         #endregion
 
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label Lbl_Change;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label3;
         private Bunifu.Framework.UI.BunifuThinButton2 Btn_Pay;
         private Bunifu.UI.WinForms.BunifuTextBox Tb_CustomerCash;
         private Bunifu.UI.WinForms.BunifuTextBox TB_CustomerName;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label Lbl_Total;
         private Bunifu.Framework.UI.BunifuThinButton2 Btn_DeleteCart;
         private Bunifu.UI.WinForms.BunifuTextBox TB_SearchByColor;
         private Bunifu.UI.WinForms.BunifuTextBox TB_SearchByBrand;

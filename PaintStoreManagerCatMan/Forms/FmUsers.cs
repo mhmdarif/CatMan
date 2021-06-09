@@ -85,6 +85,7 @@ namespace PaintStoreManagerCatMan.Forms
         }
         public void UpdateDgv()
         {
+            ClearAll();
             List<User> dgv = newItems.GetAllUser();
             DGV_Users.DataSource = dgv;
         }
@@ -92,6 +93,41 @@ namespace PaintStoreManagerCatMan.Forms
         private void FmUsers_Load(object sender, EventArgs e)
         {
             UpdateDgv();
+        }
+
+        private void TB_SearchCate_TextChange(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TB_SearchUser_TextChange(object sender, EventArgs e)
+        {
+            if (TB_SearchUser.Text == "")
+            {
+                UpdateDgv();
+            }
+            else
+            {
+                SqlConnection con = new SqlConnection(connstring);
+                string sqlQuery = "SELECT * FROM TblUsers where User = '" + TB_SearchUser.Text + "' ";
+
+                con.Open();
+                SqlCommand cmd = new SqlCommand(sqlQuery, con);
+                SqlDataAdapter sda = new SqlDataAdapter(cmd);
+                DataTable dt = new DataTable();
+
+                sda.Fill(dt);
+                DGV_Users.DataSource = dt;
+                con.Close();
+            }
+            
+        }
+
+        private void DGV_Users_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            TB_Name.Text = DGV_Users.SelectedRows[0].Cells[1].Value.ToString();
+            Tb_Usernm.Text = DGV_Users.SelectedRows[0].Cells[2].Value.ToString();
+            TB_Password.Text = DGV_Users.SelectedRows[0].Cells[3].Value.ToString();
         }
     }
 }
