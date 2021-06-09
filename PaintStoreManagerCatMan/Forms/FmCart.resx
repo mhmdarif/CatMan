@@ -240,6 +240,21 @@
         RU5ErkJggg==
 </value>
   </data>
+  <data name="Btn_AddCart.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAALwAAAAnCAYAAAC16CIrAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIgSURBVHhe7dyxSxtRHMDxDAYFqaJ2EYTOHTo6SaeCk+B/
+        0UG6d+ifUEkwCakdxKEKFsRJpFKwa7F0aDtInSyUEopDjNEGk7yf93sn1pCfzt573+Ez5d1l+d7x7nj3
+        cvV6XYBYEDyiQvCICsEjKgSPqBA8onJ38Mc1Ofu6Iu33s9JZfSKuMiGymAPuFe1S+2yvP5XzL1U5+fvL
+        7jlxa/DNH5vJicbElR6YfwLcR640LK48Kuefl8yu+4LXq+Nic84fZJ0QyAJXHpHOu2k5+fOzp++e4DX2
+        7vKUSDFvngTIlNc56b6Zksbv73bwemcndoRG5/d9wfs5O9MYhGhpWFp7L28Ef1zzD6jmYCAA2nfjaD8N
+        Xl/l6NOtNRAIQmFAWh8W0uD1/aU5CAhI9+2jNPhuddIcAAQlucv74F1xyB4ABMYHb/0AhIjgERWCR1QI
+        HlEheESF4BGVNPjCgPkjEBofPF8yIRY+eF0or2uHrQFAKHRFgQ/+36dXIsVBcxAQiout+TR4/SLElVgL
+        j3C50oicfVtPg1et3Rd+obw1GMi0Ql7aG896v3jSj0A6K4/tA4AMc5WH11t3/A8+oV+EuMq4eRCQRa48
+        Js2D7evGe4JXp4cf/c4FLBlGphXz/s5+M3bVF7yXTG9aO895kEUm6eZh7bUZcwcyO/grenXoqxx2H0MW
+        6KxEt4XU7SGtntWdwQOhIXhEheARFYJHVAgeEanLJS5co93HqGweAAAAAElFTkSuQmCC
+</value>
+  </data>
   <data name="bunifuLabel1.BaseStylesheet" xml:space="preserve">
     <value>#bunifu-label { padding: 0px; font-family: 'Century Gothic'; font-size: 8,25pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(255, 140, 0); text-align: left; }</value>
   </data>

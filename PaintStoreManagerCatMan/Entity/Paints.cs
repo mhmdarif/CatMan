@@ -10,7 +10,7 @@ namespace PaintStoreManagerCatMan.Entity
     {
         // Properties
 
-        public int ProdId { get; set; }
+        public int Id { get; set; }
         public string Category { get; set; }
         public string Brand { get; set; }
         public string Color { get; set; }
@@ -28,7 +28,7 @@ namespace PaintStoreManagerCatMan.Entity
 
         public Paints(int id, string ctg,string nama, string color, string size, int qty, double bp, double sp )
         {
-            ProdId = id;
+            Id = id;
             Category = ctg;
             Brand = nama;
             Color = color;

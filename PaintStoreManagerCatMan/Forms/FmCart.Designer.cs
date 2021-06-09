@@ -75,6 +75,7 @@ namespace PaintStoreManagerCatMan.Forms
             this.bunifuPanel1 = new Bunifu.UI.WinForms.BunifuPanel();
             this.bunifuLabel1 = new Bunifu.UI.WinForms.BunifuLabel();
             this.DGV_Cart = new Bunifu.UI.WinForms.BunifuDataGridView();
+            this.Btn_AddCart = new Bunifu.Framework.UI.BunifuThinButton2();
             ((System.ComponentModel.ISupportInitialize)(this.DGV_CartPaint)).BeginInit();
             this.bunifuPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DGV_Cart)).BeginInit();
@@ -487,7 +488,7 @@ namespace PaintStoreManagerCatMan.Forms
             this.CB_CateCart.HoverState.Parent = this.CB_CateCart;
             this.CB_CateCart.ItemHeight = 30;
             this.CB_CateCart.ItemsAppearance.Parent = this.CB_CateCart;
-            this.CB_CateCart.Location = new System.Drawing.Point(370, 23);
+            this.CB_CateCart.Location = new System.Drawing.Point(361, 42);
             this.CB_CateCart.Name = "CB_CateCart";
             this.CB_CateCart.ShadowDecoration.Parent = this.CB_CateCart;
             this.CB_CateCart.Size = new System.Drawing.Size(188, 36);
@@ -660,6 +661,7 @@ namespace PaintStoreManagerCatMan.Forms
             this.bunifuPanel1.BorderColor = System.Drawing.Color.Transparent;
             this.bunifuPanel1.BorderRadius = 3;
             this.bunifuPanel1.BorderThickness = 1;
+            this.bunifuPanel1.Controls.Add(this.Btn_AddCart);
             this.bunifuPanel1.Controls.Add(this.DGV_CartPaint);
             this.bunifuPanel1.Controls.Add(this.CB_CateCart);
             this.bunifuPanel1.Controls.Add(this.TB_SearchByColor);
@@ -747,6 +749,31 @@ namespace PaintStoreManagerCatMan.Forms
             this.DGV_Cart.TabIndex = 22;
             this.DGV_Cart.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Light;
             // 
+            // Btn_AddCart
+            // 
+            this.Btn_AddCart.ActiveBorderThickness = 1;
+            this.Btn_AddCart.ActiveCornerRadius = 20;
+            this.Btn_AddCart.ActiveFillColor = System.Drawing.Color.Red;
+            this.Btn_AddCart.ActiveForecolor = System.Drawing.Color.White;
+            this.Btn_AddCart.ActiveLineColor = System.Drawing.Color.Red;
+            this.Btn_AddCart.BackColor = System.Drawing.SystemColors.Control;
+            this.Btn_AddCart.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Btn_AddCart.BackgroundImage")));
+            this.Btn_AddCart.ButtonText = "Add To Cart";
+            this.Btn_AddCart.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Btn_AddCart.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_AddCart.ForeColor = System.Drawing.Color.DarkOrange;
+            this.Btn_AddCart.IdleBorderThickness = 1;
+            this.Btn_AddCart.IdleCornerRadius = 20;
+            this.Btn_AddCart.IdleFillColor = System.Drawing.Color.DarkOrange;
+            this.Btn_AddCart.IdleForecolor = System.Drawing.Color.White;
+            this.Btn_AddCart.IdleLineColor = System.Drawing.Color.DarkOrange;
+            this.Btn_AddCart.Location = new System.Drawing.Point(361, 3);
+            this.Btn_AddCart.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Btn_AddCart.Name = "Btn_AddCart";
+            this.Btn_AddCart.Size = new System.Drawing.Size(188, 39);
+            this.Btn_AddCart.TabIndex = 32;
+            this.Btn_AddCart.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // FmCart
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -798,5 +825,6 @@ namespace PaintStoreManagerCatMan.Forms
         private Bunifu.UI.WinForms.BunifuPanel bunifuPanel1;
         private Bunifu.UI.WinForms.BunifuLabel bunifuLabel1;
         private Bunifu.UI.WinForms.BunifuDataGridView DGV_Cart;
+        private Bunifu.Framework.UI.BunifuThinButton2 Btn_AddCart;
     }
 }
